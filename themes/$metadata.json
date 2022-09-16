@@ -2,6 +2,7 @@
   "tokenSetOrder": [
     "Core",
     "Light",
-    "current/light-mode"
+    "current/light-mode",
+    "current/dark-mode"
   ]
 }
