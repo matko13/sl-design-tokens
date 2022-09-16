@@ -1,0 +1,68 @@
+{
+  "color": {
+    "backround": {
+      "value": "$color.gray.100",
+      "type": "color",
+      "description": "For use as a background color, in components such as Page "
+    },
+    "interacitve": {
+      "default": {
+        "value": "$color.blue.500",
+        "type": "color",
+        "description": "Used for links, plain buttons, and as the fill color for selected checkboxes and radio buttons."
+      }
+    },
+    "action": {
+      "primary": {
+        "value": "$color.purple.500",
+        "type": "color",
+        "description": "Used as the background color for primary actions, and as the fill color for icons and the text color in navigation and tabs to communicate interaction states."
+      }
+    },
+    "text": {
+      "onPrimary": {
+        "value": "$color.gray.50",
+        "type": "color",
+        "description": "For use as a text color on primary actions. Not for use in text on navigation and tabs."
+      }
+    },
+    "icon": {
+      "onPrimary": {
+        "value": "$color.gray.50",
+        "type": "color",
+        "description": "For use as a fill color for icons on primary actions. Not for use in icons on navigation and tabs."
+      }
+    }
+  },
+  "font": {
+    "S5": {
+      "value": {
+        "fontFamily": "$NunitoSans",
+        "fontWeight": "$fontWeight.600",
+        "lineHeight": "$lineHeight.24",
+        "fontSize": "$fontSize.17",
+        "textDecoration": "$textDecoration.none",
+        "textCase": "$textCase.none"
+      },
+      "type": "typography"
+    }
+  },
+  "spacing": {
+    "md": {
+      "value": "$spacing.8",
+      "type": "spacing"
+    }
+  },
+  "borderRadius": {
+    "md": {
+      "value": "8",
+      "type": "borderRadius"
+    }
+  },
+  "size": {
+    "l": {
+      "value": "$size.46",
+      "type": "sizing"
+    }
+  }
+}

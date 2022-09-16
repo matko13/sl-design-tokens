@@ -1,0 +1,7 @@
+{
+  "tokenSetOrder": [
+    "Core",
+    "Light",
+    "current/light-mode"
+  ]
+}
