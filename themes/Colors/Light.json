@@ -60,7 +60,7 @@
       }
     },
     "text": {
-      "onDarkFill": {
+      "onAction": {
         "value": "$color.gray.50",
         "type": "color",
         "description": "For use as a text color on components which have prominent fill to keep high contrast."
@@ -159,7 +159,7 @@
         "type": "color",
         "description": "Color used for disabled icons."
       },
-      "onProminent": {
+      "onAction": {
         "value": "$color.gray.50",
         "type": "color",
         "description": "For use as a fill color for icons on prominent actions and interactive components."
