@@ -3,7 +3,6 @@
     "Core",
     "Colors/Light",
     "current/light-mode",
-    "current/dark-mode",
-    "Light"
+    "current/dark-mode"
   ]
 }
