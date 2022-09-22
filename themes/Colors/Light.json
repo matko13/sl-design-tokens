@@ -316,17 +316,17 @@
           "type": "color"
         }
       },
-      "dark": {
+      "contrast": {
         "default": {
           "value": "$color.gray.700",
           "type": "color"
         },
         "hovered": {
-          "value": "$color.gray.600",
+          "value": "$color.gray.500",
           "type": "color"
         },
         "pressed": {
-          "value": "$color.gray.700",
+          "value": "$color.gray.600",
           "type": "color"
         }
       },
