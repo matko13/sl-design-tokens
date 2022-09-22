@@ -1,7 +1,7 @@
 {
   "tokenSetOrder": [
     "Core",
-    "Light",
+    "Colors/Light",
     "current/light-mode",
     "current/dark-mode"
   ]

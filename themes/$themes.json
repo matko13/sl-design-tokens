@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "a9b3e9a345d2b3244f3e28841096da44743e327e",
+    "name": "SL Light",
+    "selectedTokenSets": {
+      "Core": "enabled",
+      "current/light-mode": "disabled",
+      "current/dark-mode": "disabled",
+      "Colors/Light": "enabled"
+    },
+    "$figmaStyleReferences": {}
+  }
+]
