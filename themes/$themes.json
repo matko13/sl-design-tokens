@@ -6,7 +6,8 @@
       "Core": "enabled",
       "current/light-mode": "disabled",
       "current/dark-mode": "disabled",
-      "Colors/Light": "enabled"
+      "Colors/Light": "enabled",
+      "Colors/Dark": "disabled"
     },
     "$figmaStyleReferences": {
       "color.backround": "S:1bfa62c4d426ca179f31d403dac795c3bdede645,",
