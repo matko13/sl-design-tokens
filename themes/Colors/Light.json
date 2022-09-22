@@ -169,7 +169,12 @@
         "type": "color",
         "description": "For use as a fill color for icons on prominent actions and interactive components."
       },
-      "onInversed": {
+      "onActionInversed": {
+        "value": "$color.gray.700",
+        "type": "color",
+        "description": "For icons placed on less prominent actions."
+      },
+      "Inversed": {
         "value": "$color.gray.50",
         "type": "color",
         "description": "For icons placed on inversed surfaces."

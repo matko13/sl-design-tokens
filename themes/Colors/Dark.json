@@ -1,7 +1,7 @@
 {
   "color": {
     "backround": {
-      "value": "$color.gray.100",
+      "value": "$color.gray.700",
       "type": "color",
       "description": "For use as a background color, in components such as Page "
     },
