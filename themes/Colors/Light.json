@@ -24,22 +24,17 @@
       "disabled": {
         "value": "$color.gray.600",
         "type": "color",
-        "description": "Used for disabled plain buttons."
+        "description": "Used for disabled plain buttons, radio buttons, checkboxes."
       },
       "hovered": {
         "value": "$color.blue.400",
         "type": "color",
-        "description": "Used for hovered links and plain buttons."
+        "description": "Used for hovered plain buttons, radio buttons, checkboxes."
       },
       "pressed": {
         "value": "$color.blue.600",
         "type": "color",
-        "description": "Used for pressed links and plain buttons."
-      },
-      "focused": {
-        "value": "$color.blue.500",
-        "type": "color",
-        "description": "Used for focus on interactive elements."
+        "description": "Used for pressed plain buttons, radio buttons, checkboxes."
       },
       "critical": {
         "value": "$color.red.500",
@@ -134,11 +129,6 @@
       }
     },
     "icon": {
-      "onProminent": {
-        "value": "$color.gray.50",
-        "type": "color",
-        "description": "For use as a fill color for icons on prominent actions and interactive components."
-      },
       "default": {
         "value": "$color.gray.700",
         "type": "color",
@@ -168,6 +158,11 @@
         "value": "$color.gray.400",
         "type": "color",
         "description": "Color used for disabled icons."
+      },
+      "onProminent": {
+        "value": "$color.gray.50",
+        "type": "color",
+        "description": "For use as a fill color for icons on prominent actions and interactive components."
       }
     },
     "surface": {
@@ -357,6 +352,10 @@
         },
         "disabled": {
           "value": "$color.gray.400",
+          "type": "color"
+        },
+        "hovered": {
+          "value": "$color.gray.500",
           "type": "color"
         }
       },
