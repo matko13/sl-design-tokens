@@ -126,6 +126,11 @@
           "type": "color",
           "description": "Color of disabled links."
         }
+      },
+      "onActionInversed": {
+        "value": "$color.gray.700",
+        "type": "color",
+        "description": "Text color on actions which have less prominent fill."
       }
     },
     "icon": {
