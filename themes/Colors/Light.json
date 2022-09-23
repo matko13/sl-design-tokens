@@ -66,12 +66,12 @@
         "description": "For use as a text color on components which have prominent fill to keep high contrast."
       },
       "default": {
-        "value": "$color.gray.700",
+        "value": "{color.gray.900}",
         "type": "color",
         "description": "For use as a text color."
       },
       "subdued": {
-        "value": "$color.gray.600",
+        "value": "$color.gray.500",
         "type": "color",
         "description": "For use as a subdued text color."
       },
@@ -128,16 +128,21 @@
         }
       },
       "onActionInversed": {
-        "value": "$color.gray.700",
+        "value": "{color.gray.900}",
         "type": "color",
         "description": "Text color on actions which have less prominent fill."
       }
     },
     "icon": {
       "default": {
-        "value": "$color.gray.700",
+        "value": "{color.gray.900}",
         "type": "color",
         "description": "Default color for icons."
+      },
+      "subdued": {
+        "value": "{color.gray.500}",
+        "type": "color",
+        "description": "Subdued color for icons.\n"
       },
       "critical": {
         "value": "$color.red.500",
@@ -170,7 +175,7 @@
         "description": "For use as a fill color for icons on prominent actions and interactive components."
       },
       "onActionInversed": {
-        "value": "$color.gray.700",
+        "value": "{color.gray.900}",
         "type": "color",
         "description": "For icons placed on less prominent actions."
       },
@@ -228,7 +233,7 @@
       },
       "inversed": {
         "default": {
-          "value": "$color.gray.700",
+          "value": "{color.gray.900}",
           "type": "color"
         }
       }
@@ -334,7 +339,7 @@
       },
       "contrast": {
         "default": {
-          "value": "$color.gray.700",
+          "value": "{color.gray.900}",
           "type": "color"
         },
         "hovered": {
@@ -356,7 +361,7 @@
           "type": "color"
         },
         "pressed": {
-          "value": "$color.gray.700",
+          "value": "{color.gray.900}",
           "type": "color"
         }
       }
