@@ -1,7 +1,7 @@
 {
   "color": {
     "backround": {
-      "value": "$color.gray.800",
+      "value": "$color.gray.900",
       "type": "color",
       "description": "For use as a background color, in components such as Page "
     },
@@ -11,13 +11,13 @@
       "description": "Used as the default color of a divider."
     },
     "backdrop": {
-      "value": "rgba(0,0,0,0.5)",
+      "value": "rgba(0,0,0,0.8)",
       "type": "color",
       "description": "For use as the background color of the backdrop component for navigation and modal. This color has an alpha of `0.5`."
     },
     "interacitve": {
       "default": {
-        "value": "$color.blue.500",
+        "value": "$color.blue.400",
         "type": "color",
         "description": "Used for plain buttons, and as the fill color for selected checkboxes, radio buttons."
       },
@@ -27,12 +27,12 @@
         "description": "Used for disabled plain buttons, radio buttons, checkboxes."
       },
       "hovered": {
-        "value": "$color.blue.400",
+        "value": "$color.blue.300",
         "type": "color",
         "description": "Used for hovered plain buttons, radio buttons, checkboxes."
       },
       "pressed": {
-        "value": "$color.blue.600",
+        "value": "$color.blue.500",
         "type": "color",
         "description": "Used for pressed plain buttons, radio buttons, checkboxes."
       },
@@ -71,7 +71,7 @@
         "description": "For use as a text color."
       },
       "subdued": {
-        "value": "$color.gray.200",
+        "value": "$color.gray.500",
         "type": "color",
         "description": "For use as a subdued text color."
       },
@@ -86,7 +86,7 @@
         "description": "For use as a placeholder text color."
       },
       "onInversed": {
-        "value": "$color.gray.50",
+        "value": "$color.gray.900",
         "type": "color",
         "description": "For use as a text color on inversed colors."
       },
@@ -117,7 +117,7 @@
       },
       "link": {
         "default": {
-          "value": "$color.blue.500",
+          "value": "$color.blue.400",
           "type": "color",
           "description": "Default color for links."
         },
@@ -135,7 +135,7 @@
     },
     "icon": {
       "default": {
-        "value": "{color.gray.900}",
+        "value": "{color.gray.50}",
         "type": "color",
         "description": "Default color for icons."
       },
@@ -160,7 +160,7 @@
         "description": "Default color for success icons."
       },
       "info": {
-        "value": "$color.blue.500",
+        "value": "$color.blue.400",
         "type": "color",
         "description": "Default color for info icons."
       },
@@ -175,24 +175,24 @@
         "description": "For use as a fill color for icons on prominent actions and interactive components."
       },
       "onActionInversed": {
-        "value": "{color.gray.900}",
+        "value": "{color.gray.50}",
         "type": "color",
         "description": "For icons placed on less prominent actions."
       },
       "Inversed": {
-        "value": "$color.gray.50",
+        "value": "$color.gray.900",
         "type": "color",
         "description": "For icons placed on inversed surfaces."
       }
     },
     "surface": {
       "default": {
-        "value": "$color.gray.700",
+        "value": "$color.gray.800",
         "type": "color",
         "description": "For use as a background color, in components such as Card, Modal, and Popover."
       },
       "subdued": {
-        "value": "$color.gray.100",
+        "value": "$color.gray.700",
         "type": "color",
         "description": "For use as a subdued background color, in components such as Card, Modal, and Popover."
       },
@@ -280,7 +280,7 @@
       },
       "success": {
         "default": {
-          "value": "$color.green.500",
+          "value": "$color.green.700",
           "type": "color",
           "description": "Used for positive badges/pills/statuses."
         },
@@ -353,7 +353,7 @@
       },
       "secondary": {
         "default": {
-          "value": "$color.gray.50",
+          "value": "$color.gray.600",
           "type": "color"
         },
         "hovered": {
@@ -369,15 +369,15 @@
     "border": {
       "neutral": {
         "default": {
-          "value": "$color.gray.400",
+          "value": "$color.gray.500",
           "type": "color"
         },
         "subdued": {
-          "value": "$color.gray.200",
+          "value": "$color.gray.600",
           "type": "color"
         },
         "disabled": {
-          "value": "$color.gray.400",
+          "value": "$color.gray.700",
           "type": "color"
         },
         "hovered": {
