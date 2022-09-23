@@ -6,7 +6,7 @@
       "description": "For use as a background color, in components such as Page "
     },
     "divider": {
-      "value": "$color.gray.300",
+      "value": "$color.gray.700",
       "type": "color",
       "description": "Used as the default color of a divider."
     },
@@ -66,12 +66,12 @@
         "description": "For use as a text color on components which have prominent fill to keep high contrast."
       },
       "default": {
-        "value": "{color.gray.900}",
+        "value": "{color.gray.50}",
         "type": "color",
         "description": "For use as a text color."
       },
       "subdued": {
-        "value": "$color.gray.500",
+        "value": "$color.gray.200",
         "type": "color",
         "description": "For use as a subdued text color."
       },
@@ -187,7 +187,7 @@
     },
     "surface": {
       "default": {
-        "value": "$color.gray.50",
+        "value": "$color.gray.700",
         "type": "color",
         "description": "For use as a background color, in components such as Card, Modal, and Popover."
       },
