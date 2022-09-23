@@ -80,11 +80,6 @@
         "type": "color",
         "description": "For use as a disabled text color."
       },
-      "placeholder": {
-        "value": "$color.gray.500",
-        "type": "color",
-        "description": "For use as a placeholder text color."
-      },
       "onInversed": {
         "value": "$color.gray.50",
         "type": "color",

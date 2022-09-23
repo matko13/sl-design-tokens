@@ -4,10 +4,10 @@
     "name": "SL Light",
     "selectedTokenSets": {
       "Core": "enabled",
-      "current/light-mode": "disabled",
-      "current/dark-mode": "disabled",
       "Colors/Light": "enabled",
-      "Colors/Dark": "disabled"
+      "Colors/Dark": "disabled",
+      "current (deprecated)/light-mode": "disabled",
+      "current (deprecated)/dark-mode": "disabled"
     },
     "$figmaStyleReferences": {
       "color.backround": "S:ccc9798fbb3050967749298f11c98db01bcfa696,",
@@ -393,9 +393,9 @@
     "selectedTokenSets": {
       "Core": "source",
       "Colors/Light": "disabled",
-      "current/light-mode": "disabled",
-      "current/dark-mode": "disabled",
-      "Colors/Dark": "disabled"
+      "Colors/Dark": "enabled",
+      "current (deprecated)/light-mode": "disabled",
+      "current (deprecated)/dark-mode": "disabled"
     },
     "$figmaStyleReferences": {
       "color.backround": "S:8cc355bff75dfd4b444a4439c8705a636b58917f,",
