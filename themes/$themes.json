@@ -5,10 +5,10 @@
     "selectedTokenSets": {
       "deprecated/❌ dark-mode": "disabled",
       "deprecated/❌ light-mode": "disabled",
-      "01_Core": "enabled",
-      "02_Typography": "enabled",
-      "03_Colors/Light": "enabled",
-      "03_Colors/Dark": "disabled"
+      "Core/Colors": "enabled",
+      "Core/Typography": "enabled",
+      "Color themes/Light": "enabled",
+      "Color themes/Dark": "disabled"
     },
     "$figmaStyleReferences": {
       "color.backround": "S:8cc355bff75dfd4b444a4439c8705a636b58917f,",
@@ -427,10 +427,10 @@
     "selectedTokenSets": {
       "deprecated/❌ dark-mode": "disabled",
       "deprecated/❌ light-mode": "disabled",
-      "01_Core": "source",
-      "02_Typography": "enabled",
-      "03_Colors/Light": "disabled",
-      "03_Colors/Dark": "enabled"
+      "Core/Colors": "source",
+      "Core/Typography": "enabled",
+      "Color themes/Light": "disabled",
+      "Color themes/Dark": "enabled"
     },
     "$figmaStyleReferences": {
       "color.backround": "S:8cc355bff75dfd4b444a4439c8705a636b58917f,",
