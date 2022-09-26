@@ -4,7 +4,7 @@
     "Colors/Light",
     "Colors/Dark",
     "Typography",
-    "current/light-mode",
-    "current/dark-mode"
+    "deprecated/light-mode",
+    "deprecated/dark-mode"
   ]
 }

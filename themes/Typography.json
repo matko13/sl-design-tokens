@@ -1,45 +1,45 @@
 {
   "fontSize": {
+    "100": {
+      "value": "roundTo({fontSize.200} / $fontSize.scale, 0)",
+      "type": "fontSizes"
+    },
+    "200": {
+      "value": "roundTo({fontSize.300} / $fontSize.scale, 0)",
+      "type": "fontSizes",
+      "description": "0.833rem"
+    },
+    "300": {
+      "value": "roundTo($fontSize.base, 0)",
+      "type": "fontSizes",
+      "description": "1rem"
+    },
+    "400": {
+      "value": "roundTo({fontSize.300} * $fontSize.scale, 0)",
+      "type": "fontSizes",
+      "description": "1.2rem"
+    },
+    "500": {
+      "value": "roundTo({fontSize.400} * $fontSize.scale,0)",
+      "type": "fontSizes",
+      "description": "1.44rem"
+    },
+    "600": {
+      "value": "roundTo({fontSize.500} * $fontSize.scale, 0)",
+      "type": "fontSizes",
+      "description": "1.728rem"
+    },
+    "700": {
+      "value": "roundTo({fontSize.600} * $fontSize.scale, 0)",
+      "type": "fontSizes",
+      "description": "2.074rem"
+    },
     "base": {
       "value": "15",
       "type": "fontSizes"
     },
     "scale": {
       "value": "1.2",
-      "type": "fontSizes"
-    },
-    "T1": {
-      "value": "roundTo({fontSize.T2} * $fontSize.scale, 0)",
-      "type": "fontSizes",
-      "description": "2.074rem"
-    },
-    "T2": {
-      "value": "roundTo($fontSize.T3 * $fontSize.scale, 0)",
-      "type": "fontSizes",
-      "description": "1.728rem"
-    },
-    "T3": {
-      "value": "roundTo($fontSize.T4 * $fontSize.scale,0)",
-      "type": "fontSizes",
-      "description": "1.44rem"
-    },
-    "T4": {
-      "value": "roundTo($fontSize.T5 * $fontSize.scale, 0)",
-      "type": "fontSizes",
-      "description": "1.2rem"
-    },
-    "T5": {
-      "value": "roundTo($fontSize.base, 0)",
-      "type": "fontSizes",
-      "description": "1rem"
-    },
-    "T6": {
-      "value": "roundTo($fontSize.T5 / $fontSize.scale, 0)",
-      "type": "fontSizes",
-      "description": "0.833rem"
-    },
-    "T7": {
-      "value": "roundTo($fontSize.T6 / $fontSize.scale, 0)",
       "type": "fontSizes"
     }
   },
@@ -63,7 +63,7 @@
         "fontFamily": "{nunitoSans}",
         "fontWeight": "{fontWeight.Bold}",
         "lineHeight": "{lineHeight.150}",
-        "fontSize": "{fontSize.T1}",
+        "fontSize": "{fontSize.700}",
         "textDecoration": "{textDecoration.none}",
         "textCase": "{textCase.none}",
         "letterSpacing": "{letterSpacing.none}"
@@ -75,7 +75,7 @@
         "fontFamily": "{nunitoSans}",
         "fontWeight": "{fontWeight.Bold}",
         "lineHeight": "{lineHeight.150}",
-        "fontSize": "{fontSize.T2}",
+        "fontSize": "{fontSize.600}",
         "textDecoration": "{textDecoration.none}",
         "textCase": "{textCase.none}",
         "letterSpacing": "{letterSpacing.none}"
@@ -87,7 +87,7 @@
         "fontFamily": "{nunitoSans}",
         "fontWeight": "{fontWeight.Bold}",
         "lineHeight": "{lineHeight.150}",
-        "fontSize": "{fontSize.T3}",
+        "fontSize": "{fontSize.500}",
         "textDecoration": "{textDecoration.none}",
         "textCase": "{textCase.none}",
         "letterSpacing": "{letterSpacing.none}"
@@ -99,7 +99,7 @@
         "fontFamily": "{nunitoSans}",
         "fontWeight": "{fontWeight.Bold}",
         "lineHeight": "{lineHeight.150}",
-        "fontSize": "{fontSize.T4}",
+        "fontSize": "{fontSize.400}",
         "textDecoration": "{textDecoration.none}",
         "textCase": "{textCase.none}",
         "letterSpacing": "{letterSpacing.none}"
@@ -111,7 +111,7 @@
         "fontFamily": "{nunitoSans}",
         "fontWeight": "{fontWeight.Bold}",
         "lineHeight": "{lineHeight.125}",
-        "fontSize": "{fontSize.T5}",
+        "fontSize": "{fontSize.300}",
         "textDecoration": "{textDecoration.none}",
         "textCase": "{textCase.none}",
         "letterSpacing": "{letterSpacing.none}"
@@ -123,7 +123,7 @@
         "fontFamily": "{nunitoSans}",
         "fontWeight": "{fontWeight.Bold}",
         "lineHeight": "{lineHeight.125}",
-        "fontSize": "{fontSize.T6}",
+        "fontSize": "{fontSize.200}",
         "textDecoration": "{textDecoration.none}",
         "textCase": "{textCase.none}",
         "letterSpacing": "{letterSpacing.none}"
@@ -135,7 +135,7 @@
         "fontFamily": "{nunitoSans}",
         "fontWeight": "{fontWeight.Bold}",
         "lineHeight": "{lineHeight.125}",
-        "fontSize": "{fontSize.T6}",
+        "fontSize": "{fontSize.200}",
         "textDecoration": "{textDecoration.none}",
         "textCase": "{textCase.uppercase}",
         "letterSpacing": "{letterSpacing.none}"
@@ -147,7 +147,7 @@
         "fontFamily": "{nunitoSans}",
         "fontWeight": "{fontWeight.Bold}",
         "lineHeight": "{lineHeight.125}",
-        "fontSize": "{fontSize.T7}",
+        "fontSize": "{fontSize.100}",
         "textDecoration": "{textDecoration.none}",
         "textCase": "{textCase.none}",
         "letterSpacing": "{letterSpacing.none}"
@@ -171,7 +171,7 @@
         "fontFamily": "{nunitoSans}",
         "fontWeight": "{fontWeight.regular}",
         "lineHeight": "{lineHeight.125}",
-        "fontSize": "{fontSize.T6}",
+        "fontSize": "{fontSize.200}",
         "textCase": "{textCase.none}",
         "textDecoration": "{textDecoration.none}",
         "letterSpacing": "{letterSpacing.none}"
@@ -183,7 +183,7 @@
         "fontFamily": "{nunitoSans}",
         "fontWeight": "{fontWeight.regular}",
         "lineHeight": "{lineHeight.125}",
-        "fontSize": "{fontSize.T7}",
+        "fontSize": "{fontSize.100}",
         "textCase": "{textCase.none}",
         "textDecoration": "{textDecoration.none}",
         "letterSpacing": "{letterSpacing.none}"
@@ -195,7 +195,7 @@
         "fontFamily": "{nunitoSans}",
         "fontWeight": "{fontWeight.regular}",
         "lineHeight": "{lineHeight.base}",
-        "fontSize": "{fontSize.T6}",
+        "fontSize": "{fontSize.200}",
         "textCase": "{textCase.uppercase}",
         "textDecoration": "{textDecoration.none}",
         "letterSpacing": "{letterSpacing.none}"
