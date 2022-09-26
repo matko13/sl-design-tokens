@@ -3,12 +3,12 @@
     "id": "a9b3e9a345d2b3244f3e28841096da44743e327e",
     "name": "SL Light",
     "selectedTokenSets": {
-      "Core": "enabled",
-      "Colors/Light": "enabled",
-      "Colors/Dark": "disabled",
-      "Typography": "enabled",
       "deprecated/❌ dark-mode": "disabled",
-      "deprecated/❌ light-mode": "disabled"
+      "deprecated/❌ light-mode": "disabled",
+      "01_Core": "enabled",
+      "02_Typography": "enabled",
+      "03_Colors/Light": "enabled",
+      "03_Colors/Dark": "disabled"
     },
     "$figmaStyleReferences": {
       "color.backround": "S:8cc355bff75dfd4b444a4439c8705a636b58917f,",
@@ -398,19 +398,39 @@
       "font.paragraph": "S:8d568ecc765fde1d1fcd086ce56a955a450c9fd1,",
       "font.caption": "S:bb6f23b8d2faa05adab9ff3b4478c50794c98c86,",
       "font.captionSmall": "S:705c9bc1816038a964fb413ce01406a46921785f,",
-      "font.captionUppercase": "S:4a75aae772a879066a544a5ef4aa65f0a9aac2c5,"
+      "font.captionUppercase": "S:4a75aae772a879066a544a5ef4aa65f0a9aac2c5,",
+      "font.n.T1": "S:58c63362e4af5216483f54da860b5dc65cc97e70,",
+      "font.n.T2": "S:5852624f207cada6bc4e78ab2059c312375798ef,",
+      "font.n.T3": "S:6b9b971db7e5163604eb13b9cb87235c6004db9d,",
+      "font.n.T4": "S:4603686d44c843a7d7ae9b196b6270f2867dc164,",
+      "font.n.T5": "S:c328e87bdf96eef62e418a1360509eb8aa8e9c94,",
+      "font.n.T6": "S:fd812efc7c31f0503abc13e1c8b581ea239ed5c0,",
+      "font.n.T6Uppercase": "S:194a64f6db8ee3b3d521983d2d58b24eab172312,",
+      "font.n.T7": "S:9e8cdd1a9a255960e00da2dd931231af9b84cc75,",
+      "font.n.body": "S:8983a53c58bfae78f1a2a40e062fe441ba879fab,",
+      "font.n.caption": "S:f908e02f406a499430e7faa58761510e91c73909,",
+      "font.n.captionSmall": "S:accb28944f0b042561d462501d705f3f924980d7,",
+      "font.n.captionUppercase": "S:fbd9c3db5818efa52cdaffa1125631b4e9861d26,",
+      "font.n.i.T5": "S:81d5a63386d548ef955c36c7092256ed2dcc2340,",
+      "font.n.i.T6": "S:5a1bb78fda00fa41e321803b456d72a67c68cd92,",
+      "font.n.i.body": "S:9e6c522f0789f69d0e2e3b9b24d7c9d92c98febb,",
+      "font.n.i.caption": "S:5a12106c7f3946c5c6e03f3cf8f93279b01f1bf1,",
+      "font.i.T5": "S:bed678c51d8bd3c5d1645f1deac64dc1d10a1811,",
+      "font.i.T6": "S:a5a54e30acc5b3cfa93939906a353e8202c0f7f2,",
+      "font.i.body": "S:f81c4ec55c106505765df93f2159946fbb68cd11,",
+      "font.i.caption": "S:12d4c10a56939c1f6f84597262e756ec0ae04958,"
     }
   },
   {
     "id": "2f943d4ac395fd1b69ac2e1e73471cd87f47dbfc",
     "name": "SL Dark",
     "selectedTokenSets": {
-      "Core": "source",
-      "Colors/Light": "disabled",
-      "Colors/Dark": "enabled",
-      "Typography": "enabled",
       "deprecated/❌ dark-mode": "disabled",
-      "deprecated/❌ light-mode": "disabled"
+      "deprecated/❌ light-mode": "disabled",
+      "01_Core": "source",
+      "02_Typography": "enabled",
+      "03_Colors/Light": "disabled",
+      "03_Colors/Dark": "enabled"
     },
     "$figmaStyleReferences": {
       "color.backround": "S:8cc355bff75dfd4b444a4439c8705a636b58917f,",

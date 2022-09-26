@@ -1,9 +1,9 @@
 {
   "tokenSetOrder": [
-    "Core",
-    "Colors/Light",
-    "Colors/Dark",
-    "Typography",
+    "01_Core",
+    "02_Typography",
+    "03_Colors/Light",
+    "03_Colors/Dark",
     "deprecated/❌ light-mode",
     "deprecated/❌ dark-mode"
   ]
