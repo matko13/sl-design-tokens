@@ -7,8 +7,8 @@
       "Colors/Light": "enabled",
       "Colors/Dark": "disabled",
       "Typography": "enabled",
-      "deprecated/light-mode": "disabled",
-      "deprecated/dark-mode": "disabled"
+      "deprecated/❌ dark-mode": "disabled",
+      "deprecated/❌ light-mode": "disabled"
     },
     "$figmaStyleReferences": {
       "color.backround": "S:8cc355bff75dfd4b444a4439c8705a636b58917f,",
@@ -409,8 +409,8 @@
       "Colors/Light": "disabled",
       "Colors/Dark": "enabled",
       "Typography": "enabled",
-      "deprecated/light-mode": "disabled",
-      "deprecated/dark-mode": "disabled"
+      "deprecated/❌ dark-mode": "disabled",
+      "deprecated/❌ light-mode": "disabled"
     },
     "$figmaStyleReferences": {
       "color.backround": "S:8cc355bff75dfd4b444a4439c8705a636b58917f,",
