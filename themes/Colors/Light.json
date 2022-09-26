@@ -179,7 +179,7 @@
         "type": "color",
         "description": "For icons placed on less prominent actions."
       },
-      "Inversed": {
+      "onInversed": {
         "value": "$color.gray.50",
         "type": "color",
         "description": "For icons placed on inversed surfaces."
