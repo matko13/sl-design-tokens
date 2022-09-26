@@ -3,7 +3,8 @@
     "Core",
     "Colors/Light",
     "Colors/Dark",
-    "current (deprecated)/light-mode",
-    "current (deprecated)/dark-mode"
+    "current/light-mode",
+    "current/dark-mode",
+    "Typography"
   ]
 }

@@ -1,0 +1,131 @@
+{
+  "fontSize": {
+    "base": {
+      "value": "15",
+      "type": "fontSizes"
+    },
+    "scale": {
+      "value": "1.15",
+      "type": "fontSizes"
+    },
+    "T1": {
+      "value": "roundTo({fontSize.T2} * $fontSize.scale, 0)",
+      "type": "fontSizes"
+    },
+    "T2": {
+      "value": "roundTo({fontSize.T3} * $fontSize.scale, 0)",
+      "type": "fontSizes"
+    },
+    "T3": {
+      "value": "roundTo($fontSize.T4 * $fontSize.scale,0)",
+      "type": "fontSizes"
+    },
+    "T4": {
+      "value": "roundTo($fontSize.T5 * $fontSize.scale, 0)",
+      "type": "fontSizes"
+    },
+    "T5": {
+      "value": "roundTo($fontSize.base * $fontSize.scale, 0)",
+      "type": "fontSizes"
+    },
+    "T6": {
+      "value": "roundTo($fontSize.base / $fontSize.scale, 0)",
+      "type": "fontSizes"
+    },
+    "T7": {
+      "value": "roundTo($fontSize.T6 / $fontSize.scale, 0)",
+      "type": "fontSizes"
+    }
+  },
+  "lineHeight": {
+    "100": {
+      "value": "100%",
+      "type": "lineHeights"
+    },
+    "125": {
+      "value": "125%",
+      "type": "lineHeights"
+    },
+    "150": {
+      "value": "150%",
+      "type": "lineHeights"
+    }
+  },
+  "T1": {
+    "value": {
+      "fontFamily": "{NunitoSans}",
+      "fontWeight": "{fontWeight.700}",
+      "lineHeight": "{lineHeight.150}",
+      "fontSize": "{fontSize.T1}",
+      "textDecoration": "{textDecoration.none}",
+      "textCase": "{textCase.none}"
+    },
+    "type": "typography"
+  },
+  "T2": {
+    "value": {
+      "fontFamily": "{NunitoSans}",
+      "fontWeight": "{fontWeight.700}",
+      "lineHeight": "{lineHeight.150}",
+      "fontSize": "{fontSize.T2}",
+      "textDecoration": "{textDecoration.none}",
+      "textCase": "{textCase.none}"
+    },
+    "type": "typography"
+  },
+  "T3": {
+    "value": {
+      "fontFamily": "{NunitoSans}",
+      "fontWeight": "{fontWeight.700}",
+      "lineHeight": "{lineHeight.150}",
+      "fontSize": "{fontSize.T3}",
+      "textDecoration": "{textDecoration.none}",
+      "textCase": "{textCase.none}"
+    },
+    "type": "typography"
+  },
+  "T4": {
+    "value": {
+      "fontFamily": "{NunitoSans}",
+      "fontWeight": "{fontWeight.700}",
+      "lineHeight": "{lineHeight.150}",
+      "fontSize": "{fontSize.T4}",
+      "textDecoration": "{textDecoration.none}",
+      "textCase": "{textCase.none}"
+    },
+    "type": "typography"
+  },
+  "T5": {
+    "value": {
+      "fontFamily": "{NunitoSans}",
+      "fontWeight": "{fontWeight.700}",
+      "lineHeight": "{lineHeight.125}",
+      "fontSize": "{fontSize.T5}",
+      "textDecoration": "{textDecoration.none}",
+      "textCase": "{textCase.none}"
+    },
+    "type": "typography"
+  },
+  "T6": {
+    "value": {
+      "fontFamily": "{NunitoSans}",
+      "fontWeight": "{fontWeight.700}",
+      "lineHeight": "{lineHeight.125}",
+      "fontSize": "{fontSize.T6}",
+      "textDecoration": "{textDecoration.none}",
+      "textCase": "{textCase.none}"
+    },
+    "type": "typography"
+  },
+  "T7": {
+    "value": {
+      "fontFamily": "{NunitoSans}",
+      "fontWeight": "{fontWeight.700}",
+      "lineHeight": "{lineHeight.125}",
+      "fontSize": "{fontSize.T7}",
+      "textDecoration": "{textDecoration.none}",
+      "textCase": "{textCase.none}"
+    },
+    "type": "typography"
+  }
+}
