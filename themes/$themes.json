@@ -7,9 +7,9 @@
       "deprecated/❌ light-mode": "disabled",
       "Core/Colors": "source",
       "Core/Typography": "source",
-      "Color themes/Light": "enabled",
-      "Color themes/Dark": "disabled",
-      "Components/Badge": "enabled"
+      "Components/Badge": "enabled",
+      "Semantic/Light": "enabled",
+      "Semantic/Dark": "disabled"
     },
     "$figmaStyleReferences": {
       "color.backround": "S:8cc355bff75dfd4b444a4439c8705a636b58917f,",
@@ -430,9 +430,9 @@
       "deprecated/❌ light-mode": "disabled",
       "Core/Colors": "source",
       "Core/Typography": "source",
-      "Color themes/Light": "disabled",
-      "Color themes/Dark": "enabled",
-      "Components/Badge": "enabled"
+      "Components/Badge": "enabled",
+      "Semantic/Light": "disabled",
+      "Semantic/Dark": "enabled"
     },
     "$figmaStyleReferences": {
       "color.backround": "S:8cc355bff75dfd4b444a4439c8705a636b58917f,",

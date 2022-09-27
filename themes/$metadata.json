@@ -2,8 +2,8 @@
   "tokenSetOrder": [
     "Core/Colors",
     "Core/Typography",
-    "Color themes/Light",
-    "Color themes/Dark",
+    "Semantic/Light",
+    "Semantic/Dark",
     "Components/Badge",
     "deprecated/❌ light-mode",
     "deprecated/❌ dark-mode"
