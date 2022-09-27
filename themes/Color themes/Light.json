@@ -325,15 +325,15 @@
       },
       "neutral": {
         "default": {
-          "value": "$color.gray.300",
+          "value": "$color.gray.500",
           "type": "color"
         },
         "hovered": {
-          "value": "$color.gray.200",
+          "value": "$color.gray.400",
           "type": "color"
         },
         "pressed": {
-          "value": "$color.gray.400",
+          "value": "$color.gray.600",
           "type": "color"
         }
       },

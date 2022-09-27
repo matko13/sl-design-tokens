@@ -197,22 +197,22 @@
         "description": "For use as a subdued background color, in components such as Card, Modal, and Popover."
       },
       "disabled": {
-        "value": "$color.gray.100",
+        "value": "$color.gray.700",
         "type": "color",
         "description": "For use as a surface color on disabled interactive elements such as option list items and action list items when in a disabled state."
       },
       "hovered": {
-        "value": "$color.gray.300",
+        "value": "$color.gray.700",
         "type": "color",
         "description": "For use as a surface color on interactive elements such as resource list items and action list items when in a hovered state."
       },
       "pressed": {
-        "value": "$color.gray.200",
+        "value": "$color.gray.800",
         "type": "color",
         "description": "For use as a surface color on interactive elements such as resource list items and action list items when in a pressed state."
       },
       "neutral": {
-        "value": "$color.gray.100",
+        "value": "$color.gray.800",
         "type": "color"
       },
       "info": {
@@ -233,7 +233,7 @@
       },
       "inversed": {
         "default": {
-          "value": "{color.gray.900}",
+          "value": "{color.gray.50}",
           "type": "color"
         }
       }
@@ -285,12 +285,12 @@
           "description": "Used for positive badges/pills/statuses."
         },
         "hovered": {
-          "value": "$color.green.400",
+          "value": "$color.green.700",
           "type": "color",
           "description": "Used for hovered positive badges/pills/statuses."
         },
         "pressed": {
-          "value": "$color.green.600",
+          "value": "$color.green.900",
           "type": "color",
           "description": "Used for pressed positive badges/pills/statuses."
         }
@@ -301,11 +301,11 @@
           "type": "color"
         },
         "hovered": {
-          "value": "$color.yellow.400",
+          "value": "$color.yellow.700",
           "type": "color"
         },
         "pressed": {
-          "value": "$color.yellow.600",
+          "value": "$color.yellow.900",
           "type": "color"
         }
       },
@@ -315,11 +315,11 @@
           "type": "color"
         },
         "hovered": {
-          "value": "$color.blue.400",
+          "value": "$color.blue.700",
           "type": "color"
         },
         "pressed": {
-          "value": "$color.blue.600",
+          "value": "$color.blue.900",
           "type": "color"
         }
       },
@@ -329,17 +329,17 @@
           "type": "color"
         },
         "hovered": {
-          "value": "$color.gray.200",
+          "value": "$color.gray.600",
           "type": "color"
         },
         "pressed": {
-          "value": "$color.gray.400",
+          "value": "$color.gray.800",
           "type": "color"
         }
       },
       "contrast": {
         "default": {
-          "value": "{color.gray.900}",
+          "value": "{color.gray.50}",
           "type": "color"
         },
         "hovered": {
@@ -357,7 +357,7 @@
           "type": "color"
         },
         "hovered": {
-          "value": "$color.gray.100",
+          "value": "$color.gray.700",
           "type": "color"
         },
         "pressed": {
