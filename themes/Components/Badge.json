@@ -7,11 +7,11 @@
           "type": "color"
         },
         "hovered": {
-          "value": "$color.action.success.hovered",
+          "value": "{color.action.success.weaker}",
           "type": "color"
         },
         "pressed": {
-          "value": "$color.action.success.pressed",
+          "value": "{color.action.success.stronger}",
           "type": "color"
         }
       }
@@ -82,7 +82,7 @@
     },
     "text": {
       "default": {
-        "value": "$color.text.onAction",
+        "value": "{color.text.onSolid}",
         "type": "color"
       },
       "size": {

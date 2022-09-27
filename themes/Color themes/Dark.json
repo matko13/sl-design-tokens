@@ -60,40 +60,35 @@
       }
     },
     "text": {
-      "onAction": {
-        "value": "$color.gray.50",
-        "type": "color",
-        "description": "For use as a text color on components which have prominent fill to keep high contrast."
-      },
       "default": {
         "value": "{color.gray.50}",
         "type": "color",
         "description": "For use as a text color."
       },
-      "subdued": {
+      "onSolid": {
+        "value": "$color.gray.50",
+        "type": "color",
+        "description": "For use as a text color on components which have prominent fill to keep high contrast."
+      },
+      "weaker": {
         "value": "$color.gray.400",
         "type": "color",
-        "description": "For use as a subdued text color."
+        "description": "For use as a weaker text color."
+      },
+      "weakest": {
+        "value": "$color.gray.500",
+        "type": "color",
+        "description": "For use as the less prominent text color, for example in the inputs placeholder."
       },
       "disabled": {
         "value": "$color.gray.500",
         "type": "color",
         "description": "For use as a disabled text color."
       },
-      "placeholder": {
-        "value": "$color.gray.500",
-        "type": "color",
-        "description": "For use as a placeholder text color."
-      },
       "onInversed": {
         "value": "$color.gray.50",
         "type": "color",
         "description": "For use as a text color on inversed colors."
-      },
-      "subduedOnInversed": {
-        "value": "$color.gray.400",
-        "type": "color",
-        "description": "For use as a subdued text color on inversed colors."
       },
       "warning": {
         "value": "$color.yellow.500",
@@ -210,26 +205,6 @@
         "value": "$color.gray.800",
         "type": "color",
         "description": "For use as a surface color on interactive elements such as resource list items and action list items when in a pressed state."
-      },
-      "neutral": {
-        "value": "$color.gray.800",
-        "type": "color"
-      },
-      "info": {
-        "value": "$color.blue.900",
-        "type": "color"
-      },
-      "warning": {
-        "value": "$color.yellow.900",
-        "type": "color"
-      },
-      "critical": {
-        "value": "$color.red.900",
-        "type": "color"
-      },
-      "success": {
-        "value": "$color.green.900",
-        "type": "color"
       },
       "inversed": {
         "default": {
@@ -372,16 +347,12 @@
           "value": "$color.gray.600",
           "type": "color"
         },
-        "subdued": {
-          "value": "$color.gray.600",
+        "weak": {
+          "value": "$color.gray.400",
           "type": "color"
         },
-        "disabled": {
+        "strong": {
           "value": "$color.gray.700",
-          "type": "color"
-        },
-        "hovered": {
-          "value": "$color.gray.500",
           "type": "color"
         }
       },
@@ -407,6 +378,118 @@
         "value": "$color.blue.400",
         "type": "color",
         "description": "Color used for borders in focus in inputs."
+      }
+    },
+    "status": {
+      "success": {
+        "stronger": {
+          "value": "$color.green.900",
+          "type": "color"
+        },
+        "strong": {
+          "value": "$color.green.800",
+          "type": "color"
+        },
+        "default": {
+          "value": "$color.green.700",
+          "type": "color"
+        },
+        "weak": {
+          "value": "$color.green.600",
+          "type": "color"
+        },
+        "weaker": {
+          "value": "$color.green.500",
+          "type": "color"
+        }
+      },
+      "warning": {
+        "stronger": {
+          "value": "$color.yellow.900",
+          "type": "color"
+        },
+        "strong": {
+          "value": "$color.yellow.800",
+          "type": "color"
+        },
+        "default": {
+          "value": "$color.yellow.700",
+          "type": "color"
+        },
+        "weak": {
+          "value": "$color.yellow.600",
+          "type": "color"
+        },
+        "weaker": {
+          "value": "$color.yellow.500",
+          "type": "color"
+        }
+      },
+      "critical": {
+        "stronger": {
+          "value": "$color.red.900",
+          "type": "color"
+        },
+        "strong": {
+          "value": "$color.red.800",
+          "type": "color"
+        },
+        "default": {
+          "value": "$color.red.700",
+          "type": "color"
+        },
+        "weak": {
+          "value": "$color.red.600",
+          "type": "color"
+        },
+        "weaker": {
+          "value": "$color.red.500",
+          "type": "color"
+        }
+      },
+      "info": {
+        "stronger": {
+          "value": "$color.blue.900",
+          "type": "color"
+        },
+        "strong": {
+          "value": "$color.blue.800",
+          "type": "color"
+        },
+        "default": {
+          "value": "$color.blue.700",
+          "type": "color"
+        },
+        "weak": {
+          "value": "$color.blue.600",
+          "type": "color"
+        },
+        "weaker": {
+          "value": "$color.blue.500",
+          "type": "color"
+        }
+      },
+      "neutral": {
+        "stronger": {
+          "value": "$color.gray.700",
+          "type": "color"
+        },
+        "strong": {
+          "value": "$color.gray.600",
+          "type": "color"
+        },
+        "default": {
+          "value": "$color.gray.500",
+          "type": "color"
+        },
+        "weak": {
+          "value": "$color.gray.400",
+          "type": "color"
+        },
+        "weaker": {
+          "value": "$color.gray.200",
+          "type": "color"
+        }
       }
     }
   }
