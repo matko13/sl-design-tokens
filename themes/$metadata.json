@@ -4,6 +4,7 @@
     "Core/Typography",
     "Color themes/Light",
     "Color themes/Dark",
+    "Components/Badge",
     "deprecated/❌ light-mode",
     "deprecated/❌ dark-mode"
   ]

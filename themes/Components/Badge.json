@@ -1,0 +1,44 @@
+{
+  "badge": {
+    "success": {
+      "background": {
+        "default": {
+          "value": "$color.action.success.default",
+          "type": "color"
+        },
+        "hovered": {
+          "value": "$color.action.success.hovered",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "$color.action.success.pressed",
+          "type": "color"
+        }
+      }
+    },
+    "text": {
+      "default": {
+        "value": "$color.text.onAction",
+        "type": "color"
+      },
+      "inversed": {
+        "value": "$color.text.onActionInversed",
+        "type": "color"
+      }
+    },
+    "icon": {
+      "default": {
+        "value": "$color.icon.onAction",
+        "type": "color"
+      },
+      "inversed": {
+        "value": "$color.icon.onActionInversed",
+        "type": "color"
+      }
+    }
+  },
+  "text": {
+    "value": "$font.n.h6",
+    "type": "typography"
+  }
+}
