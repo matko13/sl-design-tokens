@@ -28,6 +28,10 @@
       "size": {
         "value": "$font.n.h6",
         "type": "typography"
+      },
+      "onInversed": {
+        "value": "$color.text.onInversed",
+        "type": "color"
       }
     },
     "icon": {
@@ -38,6 +42,84 @@
       "inversed": {
         "value": "$color.icon.onActionInversed",
         "type": "color"
+      }
+    },
+    "info": {
+      "background": {
+        "default": {
+          "value": "$color.action.info.default",
+          "type": "color"
+        },
+        "hovered": {
+          "value": "$color.action.info.hovered",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "$color.action.info.pressed",
+          "type": "color"
+        }
+      }
+    },
+    "warning": {
+      "background": {
+        "default": {
+          "value": "$color.action.warning.default",
+          "type": "color"
+        },
+        "hovered": {
+          "value": "$color.action.warning.hovered",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "$color.action.warning.pressed",
+          "type": "color"
+        }
+      }
+    },
+    "critical": {
+      "background": {
+        "default": {
+          "value": "$color.action.critical.default",
+          "type": "color"
+        },
+        "hovered": {
+          "value": "$color.action.critical.hovered",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "$color.action.critical.pressed",
+          "type": "color"
+        }
+      }
+    },
+    "neutral": {
+      "background": {
+        "default": {
+          "value": "$color.action.neutral.default",
+          "type": "color"
+        },
+        "hovered": {
+          "value": "$color.action.neutral.hovered",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "$color.action.neutral.pressed",
+          "type": "color"
+        }
+      },
+      "contrast": {
+        "default": {
+          "value": "$color.action.contrast.default",
+          "type": "color"
+        },
+        "hovered": {
+          "value": "$color.action.contrast.hovered",
+          "type": "color"
+        },
+        "pressed": {
+          "value": "$color.action.contrast.pressed",
+          "type": "color"
+        }
       }
     }
   }
