@@ -17,7 +17,7 @@
     },
     "interacitve": {
       "default": {
-        "value": "$color.blue.400",
+        "value": "$color.blue.300",
         "type": "color",
         "description": "Used for plain buttons, and as the fill color for selected checkboxes, radio buttons."
       },
@@ -26,18 +26,18 @@
         "type": "color",
         "description": "Used for disabled plain buttons, radio buttons, checkboxes."
       },
-      "hovered": {
-        "value": "$color.blue.300",
+      "weak": {
+        "value": "$color.blue.200",
         "type": "color",
         "description": "Used for hovered plain buttons, radio buttons, checkboxes."
       },
-      "pressed": {
-        "value": "$color.blue.500",
+      "strong": {
+        "value": "$color.blue.400",
         "type": "color",
         "description": "Used for pressed plain buttons, radio buttons, checkboxes."
       },
       "critical": {
-        "value": "$color.red.500",
+        "value": "$color.red.300",
         "type": "color",
         "description": "For use as a text color in critical elements."
       },
@@ -47,12 +47,12 @@
           "type": "color",
           "description": "Color for default state of toggles."
         },
-        "hovered": {
+        "weak": {
           "value": "$color.gray.300",
           "type": "color",
           "description": "Color for hover state of toggles."
         },
-        "pressed": {
+        "strong": {
           "value": "$color.gray.500",
           "type": "color",
           "description": "Color for selected state of toggles."
@@ -70,20 +70,15 @@
         "type": "color",
         "description": "For use as a text color on components which have prominent fill to keep high contrast."
       },
-      "weaker": {
+      "weak": {
         "value": "$color.gray.400",
         "type": "color",
         "description": "For use as a weaker text color."
       },
-      "weakest": {
+      "weaker": {
         "value": "$color.gray.500",
         "type": "color",
         "description": "For use as the less prominent text color, for example in the inputs placeholder."
-      },
-      "disabled": {
-        "value": "$color.gray.500",
-        "type": "color",
-        "description": "For use as a disabled text color."
       },
       "onInversed": {
         "value": "$color.gray.50",
@@ -91,22 +86,22 @@
         "description": "For use as a text color on inversed colors."
       },
       "warning": {
-        "value": "$color.yellow.500",
+        "value": "$color.yellow.300",
         "type": "color",
         "description": "For use as a text color in warning elements such as exception list. "
       },
       "critical": {
-        "value": "$color.red.500",
+        "value": "$color.red.300",
         "type": "color",
         "description": "For use as a text color in critical elements such as exception list. "
       },
       "success": {
-        "value": "$color.green.500",
+        "value": "$color.green.300",
         "type": "color",
         "description": "Color used for success texts"
       },
       "info": {
-        "value": "$color.blue.500",
+        "value": "$color.blue.300",
         "type": "color",
         "description": "Default color for info text."
       },
@@ -122,7 +117,7 @@
           "description": "Color of disabled links."
         }
       },
-      "onActionInversed": {
+      "onSolidInversed": {
         "value": "{color.gray.50}",
         "type": "color",
         "description": "Text color on actions which have less prominent fill."
@@ -134,7 +129,7 @@
         "type": "color",
         "description": "Default color for icons."
       },
-      "subdued": {
+      "weak": {
         "value": "{color.gray.400}",
         "type": "color",
         "description": "Subdued color for icons.\n"
@@ -159,17 +154,12 @@
         "type": "color",
         "description": "Default color for info icons."
       },
-      "disabled": {
-        "value": "$color.gray.400",
-        "type": "color",
-        "description": "Color used for disabled icons."
-      },
-      "onAction": {
+      "onSolid": {
         "value": "$color.gray.50",
         "type": "color",
         "description": "For use as a fill color for icons on prominent actions and interactive components."
       },
-      "onActionInversed": {
+      "onSolidInversed": {
         "value": "{color.gray.50}",
         "type": "color",
         "description": "For icons placed on less prominent actions."
@@ -238,18 +228,18 @@
           "description": "For use as the background color for destructive buttons."
         },
         "hovered": {
-          "value": "$color.red.400",
+          "value": "$color.red.700",
           "type": "color",
           "description": "For use as the background color for hovered destructive buttons."
         },
         "pressed": {
-          "value": "$color.red.600",
+          "value": "$color.red.900",
           "type": "color",
           "description": "For use as the background color for pressed destructive buttons."
         }
       },
       "disabled": {
-        "value": "$color.gray.400",
+        "value": "$color.gray.600",
         "type": "color",
         "description": "For use as the background color for actions."
       },

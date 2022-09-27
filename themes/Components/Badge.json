@@ -116,7 +116,7 @@
     },
     "icon": {
       "default": {
-        "value": "$color.icon.onAction",
+        "value": "{color.icon.onSolid}",
         "type": "color"
       }
     }
