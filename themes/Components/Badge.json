@@ -3,31 +3,55 @@
     "success": {
       "background": {
         "default": {
-          "value": "$color.action.success.default",
+          "value": "$color.status.success.default",
           "type": "color"
         },
         "hovered": {
-          "value": "{color.action.success.weaker}",
+          "value": "{color.status.success.weak}",
           "type": "color"
         },
         "pressed": {
-          "value": "{color.action.success.stronger}",
+          "value": "{color.status.success.stronger}",
           "type": "color"
+        }
+      },
+      "subdued": {
+        "background": {
+          "success": {
+            "value": "$color.status.success.weaker",
+            "type": "color"
+          },
+          "info": {
+            "value": "$color.status.info.weaker",
+            "type": "color"
+          },
+          "warning": {
+            "value": "$color.status.warning.weaker",
+            "type": "color"
+          },
+          "critical": {
+            "value": "$color.status.critical.weaker",
+            "type": "color"
+          },
+          "neutral": {
+            "value": "$color.status.neutral.weaker",
+            "type": "color"
+          }
         }
       }
     },
     "info": {
       "background": {
         "default": {
-          "value": "$color.action.info.default",
+          "value": "$color.status.info.default",
           "type": "color"
         },
         "hovered": {
-          "value": "$color.action.info.hovered",
+          "value": "$color.status.info.weak",
           "type": "color"
         },
         "pressed": {
-          "value": "$color.action.info.pressed",
+          "value": "$color.status.info.strong",
           "type": "color"
         }
       }
@@ -35,15 +59,15 @@
     "warning": {
       "background": {
         "default": {
-          "value": "$color.action.warning.default",
+          "value": "$color.status.warning.default",
           "type": "color"
         },
         "hovered": {
-          "value": "$color.action.warning.hovered",
+          "value": "$color.status.warning.weak",
           "type": "color"
         },
         "pressed": {
-          "value": "$color.action.warning.pressed",
+          "value": "$color.status.warning.strong",
           "type": "color"
         }
       }
@@ -51,15 +75,15 @@
     "critical": {
       "background": {
         "default": {
-          "value": "$color.action.critical.default",
+          "value": "$color.status.critical.default",
           "type": "color"
         },
         "hovered": {
-          "value": "$color.action.critical.hovered",
+          "value": "$color.status.critical.weak",
           "type": "color"
         },
         "pressed": {
-          "value": "$color.action.critical.pressed",
+          "value": "$color.status.critical.strong",
           "type": "color"
         }
       }
@@ -67,15 +91,15 @@
     "neutral": {
       "background": {
         "default": {
-          "value": "$color.action.neutral.default",
+          "value": "$color.status.neutral.default",
           "type": "color"
         },
         "hovered": {
-          "value": "$color.action.neutral.hovered",
+          "value": "$color.status.neutral.weak",
           "type": "color"
         },
         "pressed": {
-          "value": "$color.action.neutral.pressed",
+          "value": "$color.status.neutral.strong",
           "type": "color"
         }
       }
