@@ -16,34 +16,6 @@
         }
       }
     },
-    "text": {
-      "default": {
-        "value": "$color.text.onAction",
-        "type": "color"
-      },
-      "inversed": {
-        "value": "$color.text.onActionInversed",
-        "type": "color"
-      },
-      "size": {
-        "value": "$font.n.h6",
-        "type": "typography"
-      },
-      "onInversed": {
-        "value": "$color.text.onInversed",
-        "type": "color"
-      }
-    },
-    "icon": {
-      "default": {
-        "value": "$color.icon.onAction",
-        "type": "color"
-      },
-      "inversed": {
-        "value": "$color.icon.onActionInversed",
-        "type": "color"
-      }
-    },
     "info": {
       "background": {
         "default": {
@@ -106,20 +78,22 @@
           "value": "$color.action.neutral.pressed",
           "type": "color"
         }
+      }
+    },
+    "text": {
+      "default": {
+        "value": "$color.text.onAction",
+        "type": "color"
       },
-      "contrast": {
-        "default": {
-          "value": "$color.action.contrast.default",
-          "type": "color"
-        },
-        "hovered": {
-          "value": "$color.action.contrast.hovered",
-          "type": "color"
-        },
-        "pressed": {
-          "value": "$color.action.contrast.pressed",
-          "type": "color"
-        }
+      "size": {
+        "value": "$font.n.h6",
+        "type": "typography"
+      }
+    },
+    "icon": {
+      "default": {
+        "value": "$color.icon.onAction",
+        "type": "color"
       }
     }
   }
