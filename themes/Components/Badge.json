@@ -24,6 +24,10 @@
       "inversed": {
         "value": "$color.text.onActionInversed",
         "type": "color"
+      },
+      "size": {
+        "value": "$font.n.h6",
+        "type": "typography"
       }
     },
     "icon": {
@@ -36,9 +40,5 @@
         "type": "color"
       }
     }
-  },
-  "text": {
-    "value": "$font.n.h6",
-    "type": "typography"
   }
 }
