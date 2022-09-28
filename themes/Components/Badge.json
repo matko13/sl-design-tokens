@@ -189,11 +189,11 @@
       }
     },
     "borderRadius": {
-      "primary": {
+      "pill": {
         "value": "$borderRadius.16",
         "type": "borderRadius"
       },
-      "secondary": {
+      "rectangle": {
         "value": "$borderRadius.6",
         "type": "borderRadius"
       }
