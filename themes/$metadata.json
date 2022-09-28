@@ -2,6 +2,8 @@
   "tokenSetOrder": [
     "Core/Colors",
     "Core/Typography",
+    "borderRadius",
+    "boxShadow",
     "Semantic/Light",
     "Semantic/Dark",
     "Components/Badge",

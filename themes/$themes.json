@@ -5,11 +5,13 @@
     "selectedTokenSets": {
       "deprecated/❌ dark-mode": "disabled",
       "deprecated/❌ light-mode": "disabled",
-      "Core/Colors": "source",
-      "Core/Typography": "source",
+      "Core/Colors": "enabled",
+      "Core/Typography": "enabled",
       "Components/Badge": "enabled",
       "Semantic/Light": "enabled",
-      "Semantic/Dark": "disabled"
+      "Semantic/Dark": "disabled",
+      "borderRadius": "enabled",
+      "boxShadow": "enabled"
     },
     "$figmaStyleReferences": {
       "color.backround": "S:cb559a4a83514f0c6c0ec91e38ce98b40e2c32c3,",
@@ -514,11 +516,13 @@
     "selectedTokenSets": {
       "deprecated/❌ dark-mode": "disabled",
       "deprecated/❌ light-mode": "disabled",
-      "Core/Colors": "source",
-      "Core/Typography": "source",
+      "Core/Colors": "enabled",
+      "Core/Typography": "enabled",
       "Components/Badge": "enabled",
       "Semantic/Light": "disabled",
-      "Semantic/Dark": "enabled"
+      "Semantic/Dark": "enabled",
+      "borderRadius": "enabled",
+      "boxShadow": "enabled"
     },
     "$figmaStyleReferences": {
       "color.backround": "S:8cc355bff75dfd4b444a4439c8705a636b58917f,",
