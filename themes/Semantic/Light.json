@@ -349,10 +349,6 @@
         }
       },
       "warning": {
-        "stronger": {
-          "value": "$color.yellow.700",
-          "type": "color"
-        },
         "strong": {
           "value": "$color.yellow.600",
           "type": "color"
@@ -375,10 +371,6 @@
         }
       },
       "critical": {
-        "stronger": {
-          "value": "$color.red.700",
-          "type": "color"
-        },
         "strong": {
           "value": "$color.red.600",
           "type": "color"
@@ -401,10 +393,6 @@
         }
       },
       "info": {
-        "stronger": {
-          "value": "$color.blue.700",
-          "type": "color"
-        },
         "strong": {
           "value": "$color.blue.600",
           "type": "color"
@@ -427,10 +415,6 @@
         }
       },
       "neutral": {
-        "stronger": {
-          "value": "$color.gray.800",
-          "type": "color"
-        },
         "strong": {
           "value": "$color.gray.700",
           "type": "color"
