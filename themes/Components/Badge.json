@@ -182,8 +182,8 @@
         }
       }
     },
-    "text": {
-      "size": {
+    "font": {
+      "default": {
         "value": "$font.n.h6",
         "type": "typography"
       }
