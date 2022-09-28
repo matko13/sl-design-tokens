@@ -327,10 +327,6 @@
     },
     "status": {
       "success": {
-        "stronger": {
-          "value": "$color.green.700",
-          "type": "color"
-        },
         "strong": {
           "value": "$color.green.600",
           "type": "color"
