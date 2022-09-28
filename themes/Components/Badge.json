@@ -189,13 +189,15 @@
       }
     },
     "borderRadius": {
-      "pill": {
-        "value": "$borderRadius.16",
-        "type": "borderRadius"
-      },
-      "rectangle": {
-        "value": "$borderRadius.6",
-        "type": "borderRadius"
+      "style": {
+        "pill": {
+          "value": "$borderRadius.16",
+          "type": "borderRadius"
+        },
+        "rectangle": {
+          "value": "$borderRadius.6",
+          "type": "borderRadius"
+        }
       }
     }
   }
