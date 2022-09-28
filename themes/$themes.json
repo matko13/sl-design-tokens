@@ -10,9 +10,9 @@
       "Components/Badge": "enabled",
       "Semantic/Light": "enabled",
       "Semantic/Dark": "disabled",
-      "borderRadius": "enabled",
-      "boxShadow": "enabled",
-      "padding": "enabled"
+      "Core/borderRadius": "enabled",
+      "Core/padding": "enabled",
+      "Core/boxShadow": "enabled"
     },
     "$figmaStyleReferences": {
       "color.backround": "S:c9d27cbc20f594f64327496c5a3ce0f1e872f8f7,",
@@ -541,9 +541,9 @@
       "Components/Badge": "enabled",
       "Semantic/Light": "disabled",
       "Semantic/Dark": "enabled",
-      "borderRadius": "enabled",
-      "boxShadow": "enabled",
-      "padding": "enabled"
+      "Core/borderRadius": "enabled",
+      "Core/padding": "enabled",
+      "Core/boxShadow": "enabled"
     },
     "$figmaStyleReferences": {
       "color.backround": "S:8cc355bff75dfd4b444a4439c8705a636b58917f,",

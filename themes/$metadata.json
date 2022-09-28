@@ -2,9 +2,9 @@
   "tokenSetOrder": [
     "Core/Colors",
     "Core/Typography",
-    "borderRadius",
-    "padding",
-    "boxShadow",
+    "Core/borderRadius",
+    "Core/padding",
+    "Core/boxShadow",
     "Semantic/Light",
     "Semantic/Dark",
     "Components/Badge",
