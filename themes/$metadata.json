@@ -3,6 +3,7 @@
     "Core/Colors",
     "Core/Typography",
     "borderRadius",
+    "padding",
     "boxShadow",
     "Semantic/Light",
     "Semantic/Dark",
