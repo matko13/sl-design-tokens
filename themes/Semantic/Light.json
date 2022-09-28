@@ -176,25 +176,20 @@
         "type": "color",
         "description": "For use as a background color, in components such as Card, Modal, and Popover."
       },
-      "raised": {
+      "strong": {
         "value": "$color.gray.100",
         "type": "color",
         "description": "For use as a raised background color, in components such as Card, Modal, and Popover."
       },
-      "disabled": {
-        "value": "$color.gray.100",
-        "type": "color",
-        "description": "For use as a surface color on disabled interactive elements such as option list items and action list items when in a disabled state."
-      },
-      "hovered": {
-        "value": "$color.gray.300",
-        "type": "color",
-        "description": "For use as a surface color on interactive elements such as resource list items and action list items when in a hovered state."
-      },
-      "pressed": {
+      "stronger": {
         "value": "$color.gray.200",
         "type": "color",
         "description": "For use as a surface color on interactive elements such as resource list items and action list items when in a pressed state."
+      },
+      "strongest": {
+        "value": "$color.gray.300",
+        "type": "color",
+        "description": "For use as a surface color on interactive elements such as resource list items and action list items when in a hovered state."
       },
       "inversed": {
         "default": {

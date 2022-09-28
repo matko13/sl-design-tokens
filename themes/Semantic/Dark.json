@@ -176,23 +176,18 @@
         "type": "color",
         "description": "For use as a background color, in components such as Card, Modal, and Popover."
       },
-      "subdued": {
+      "strong": {
         "value": "$color.gray.700",
         "type": "color",
         "description": "For use as a subdued background color, in components such as Card, Modal, and Popover."
       },
-      "disabled": {
-        "value": "$color.gray.700",
-        "type": "color",
-        "description": "For use as a surface color on disabled interactive elements such as option list items and action list items when in a disabled state."
-      },
-      "hovered": {
-        "value": "$color.gray.700",
+      "stronger": {
+        "value": "$color.gray.600",
         "type": "color",
         "description": "For use as a surface color on interactive elements such as resource list items and action list items when in a hovered state."
       },
-      "pressed": {
-        "value": "$color.gray.800",
+      "strongest": {
+        "value": "$color.gray.500",
         "type": "color",
         "description": "For use as a surface color on interactive elements such as resource list items and action list items when in a pressed state."
       },
