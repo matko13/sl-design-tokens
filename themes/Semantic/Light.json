@@ -340,11 +340,15 @@
           "type": "color"
         },
         "weak": {
-          "value": "$color.green.400",
+          "value": "$color.green.300",
           "type": "color"
         },
         "weaker": {
           "value": "$color.green.100",
+          "type": "color"
+        },
+        "weakest": {
+          "value": "$color.green.50",
           "type": "color"
         }
       },
@@ -362,11 +366,15 @@
           "type": "color"
         },
         "weak": {
-          "value": "$color.yellow.400",
+          "value": "$color.yellow.300",
           "type": "color"
         },
         "weaker": {
           "value": "$color.yellow.100",
+          "type": "color"
+        },
+        "weakest": {
+          "value": "$color.yellow.50",
           "type": "color"
         }
       },
@@ -384,11 +392,15 @@
           "type": "color"
         },
         "weak": {
-          "value": "$color.red.400",
+          "value": "$color.red.300",
           "type": "color"
         },
         "weaker": {
           "value": "$color.red.100",
+          "type": "color"
+        },
+        "weakest": {
+          "value": "$color.red.50",
           "type": "color"
         }
       },
@@ -406,11 +418,15 @@
           "type": "color"
         },
         "weak": {
-          "value": "$color.blue.400",
+          "value": "$color.blue.300",
           "type": "color"
         },
         "weaker": {
           "value": "$color.blue.100",
+          "type": "color"
+        },
+        "weakest": {
+          "value": "$color.blue.50",
           "type": "color"
         }
       },
@@ -433,6 +449,10 @@
         },
         "weaker": {
           "value": "$color.gray.400",
+          "type": "color"
+        },
+        "weakest": {
+          "value": "$color.gray.300",
           "type": "color"
         }
       }

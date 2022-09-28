@@ -391,6 +391,10 @@
         "weaker": {
           "value": "$color.green.500",
           "type": "color"
+        },
+        "weakest": {
+          "value": "$color.green.400",
+          "type": "color"
         }
       },
       "warning": {
@@ -412,6 +416,10 @@
         },
         "weaker": {
           "value": "$color.yellow.500",
+          "type": "color"
+        },
+        "weakest": {
+          "value": "$color.yellow.400",
           "type": "color"
         }
       },
@@ -435,6 +443,10 @@
         "weaker": {
           "value": "$color.red.500",
           "type": "color"
+        },
+        "weakest": {
+          "value": "$color.red.400",
+          "type": "color"
         }
       },
       "info": {
@@ -457,6 +469,10 @@
         "weaker": {
           "value": "$color.blue.500",
           "type": "color"
+        },
+        "weakest": {
+          "value": "$color.blue.400",
+          "type": "color"
         }
       },
       "neutral": {
@@ -478,6 +494,10 @@
         },
         "weaker": {
           "value": "$color.gray.200",
+          "type": "color"
+        },
+        "weakest": {
+          "value": "$color.gray.100",
           "type": "color"
         }
       }

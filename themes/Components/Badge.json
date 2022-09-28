@@ -1,123 +1,191 @@
 {
   "badge": {
-    "success": {
-      "background": {
-        "default": {
-          "value": "$color.status.success.default",
-          "type": "color"
+    "color": {
+      "text": {
+        "primary": {
+          "default": {
+            "value": "{color.text.onSolid}",
+            "type": "color"
+          }
         },
-        "hovered": {
-          "value": "{color.status.success.weak}",
-          "type": "color"
-        },
-        "pressed": {
-          "value": "{color.status.success.stronger}",
-          "type": "color"
+        "secondary": {
+          "default": {
+            "value": "$color.text.default",
+            "type": "color"
+          }
         }
       },
-      "subdued": {
-        "background": {
-          "success": {
-            "value": "$color.status.success.weaker",
+      "icon": {
+        "primary": {
+          "default": {
+            "value": "{color.icon.onSolid}",
             "type": "color"
+          }
+        },
+        "secondary": {
+          "default": {
+            "value": "$color.icon.default",
+            "type": "color"
+          }
+        }
+      },
+      "background": {
+        "success": {
+          "primary": {
+            "default": {
+              "value": "$color.status.success.default",
+              "type": "color"
+            },
+            "hover": {
+              "value": "$color.status.success.weak",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "$color.status.success.strong",
+              "type": "color"
+            }
           },
-          "info": {
-            "value": "$color.status.info.weaker",
-            "type": "color"
+          "secondary": {
+            "default": {
+              "value": "$color.status.success.weakest",
+              "type": "color"
+            },
+            "hover": {
+              "value": "$color.status.success.weaker",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "$color.status.success.weak",
+              "type": "color"
+            }
+          }
+        },
+        "info": {
+          "primary": {
+            "default": {
+              "value": "$color.status.info.default",
+              "type": "color"
+            },
+            "hover": {
+              "value": "$color.status.info.weak",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "$color.status.info.strong",
+              "type": "color"
+            }
           },
-          "warning": {
-            "value": "$color.status.warning.weaker",
-            "type": "color"
+          "secondary": {
+            "default": {
+              "value": "$color.status.info.weakest",
+              "type": "color"
+            },
+            "hover": {
+              "value": "$color.status.info.weaker",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "$color.status.info.weak",
+              "type": "color"
+            }
+          }
+        },
+        "warning": {
+          "primary": {
+            "default": {
+              "value": "$color.status.warning.default",
+              "type": "color"
+            },
+            "hover": {
+              "value": "$color.status.warning.weak",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "$color.status.warning.strong",
+              "type": "color"
+            }
           },
-          "critical": {
-            "value": "$color.status.critical.weaker",
-            "type": "color"
+          "secondary": {
+            "default": {
+              "value": "$color.status.warning.weakest",
+              "type": "color"
+            },
+            "hover": {
+              "value": "$color.status.warning.weaker",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "$color.status.warning.weak",
+              "type": "color"
+            }
+          }
+        },
+        "critical": {
+          "primary": {
+            "default": {
+              "value": "$color.status.critical.default",
+              "type": "color"
+            },
+            "hover": {
+              "value": "$color.status.critical.weak",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "$color.status.critical.strong",
+              "type": "color"
+            }
           },
-          "neutral": {
-            "value": "$color.status.neutral.weaker",
-            "type": "color"
+          "secondary": {
+            "default": {
+              "value": "$color.status.critical.weakest",
+              "type": "color"
+            },
+            "hover": {
+              "value": "$color.status.critical.weaker",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "$color.status.critical.weak",
+              "type": "color"
+            }
+          }
+        },
+        "neutral": {
+          "primary": {
+            "default": {
+              "value": "$color.status.neutral.default",
+              "type": "color"
+            },
+            "hover": {
+              "value": "$color.status.neutral.weak",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "$color.status.neutral.strong",
+              "type": "color"
+            }
+          },
+          "secondary": {
+            "default": {
+              "value": "$color.status.neutral.weakest",
+              "type": "color"
+            },
+            "hover": {
+              "value": "$color.status.neutral.weaker",
+              "type": "color"
+            },
+            "pressed": {
+              "value": "$color.status.neutral.weak",
+              "type": "color"
+            }
           }
         }
       }
     },
-    "info": {
-      "background": {
-        "default": {
-          "value": "$color.status.info.default",
-          "type": "color"
-        },
-        "hovered": {
-          "value": "$color.status.info.weak",
-          "type": "color"
-        },
-        "pressed": {
-          "value": "$color.status.info.strong",
-          "type": "color"
-        }
-      }
-    },
-    "warning": {
-      "background": {
-        "default": {
-          "value": "$color.status.warning.default",
-          "type": "color"
-        },
-        "hovered": {
-          "value": "$color.status.warning.weak",
-          "type": "color"
-        },
-        "pressed": {
-          "value": "$color.status.warning.strong",
-          "type": "color"
-        }
-      }
-    },
-    "critical": {
-      "background": {
-        "default": {
-          "value": "$color.status.critical.default",
-          "type": "color"
-        },
-        "hovered": {
-          "value": "$color.status.critical.weak",
-          "type": "color"
-        },
-        "pressed": {
-          "value": "$color.status.critical.strong",
-          "type": "color"
-        }
-      }
-    },
-    "neutral": {
-      "background": {
-        "default": {
-          "value": "$color.status.neutral.default",
-          "type": "color"
-        },
-        "hovered": {
-          "value": "$color.status.neutral.weak",
-          "type": "color"
-        },
-        "pressed": {
-          "value": "$color.status.neutral.strong",
-          "type": "color"
-        }
-      }
-    },
     "text": {
-      "default": {
-        "value": "{color.text.onSolid}",
-        "type": "color"
-      },
       "size": {
         "value": "$font.n.h6",
         "type": "typography"
-      }
-    },
-    "icon": {
-      "default": {
-        "value": "{color.icon.onSolid}",
-        "type": "color"
       }
     }
   }
