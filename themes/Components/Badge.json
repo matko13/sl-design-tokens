@@ -1,204 +1,212 @@
 {
   "badge": {
-    "color": {
-      "text": {
-        "primary": {
-          "default": {
-            "value": "{color.text.onSolid}",
+    "primary": {
+      "text-color": {
+        "value": "$color.text.onSolid",
+        "type": "color"
+      },
+      "icon-color": {
+        "value": "$color.icon.onSolid",
+        "type": "color"
+      },
+      "success": {
+        "default": {
+          "background-color": {
+            "value": "$color.status.success.default",
             "type": "color"
           }
         },
-        "secondary": {
-          "default": {
-            "value": "$color.text.default",
+        "hover": {
+          "background-color": {
+            "value": "$color.status.success.weak",
             "type": "color"
           }
         }
       },
-      "icon": {
-        "primary": {
-          "default": {
-            "value": "{color.icon.onSolid}",
+      "info": {
+        "default": {
+          "background-color": {
+            "value": "$color.status.info.default",
             "type": "color"
           }
         },
-        "secondary": {
-          "default": {
-            "value": "$color.icon.default",
+        "hover": {
+          "background-color": {
+            "value": "$color.status.info.weak",
             "type": "color"
           }
         }
       },
-      "background": {
-        "success": {
-          "primary": {
-            "default": {
-              "value": "$color.status.success.default",
-              "type": "color"
-            },
-            "hover": {
-              "value": "$color.status.success.weak",
-              "type": "color"
-            },
-            "pressed": {
-              "value": "$color.status.success.strong",
-              "type": "color"
-            }
-          },
-          "secondary": {
-            "default": {
-              "value": "$color.status.success.weakest",
-              "type": "color"
-            },
-            "hover": {
-              "value": "$color.status.success.weaker",
-              "type": "color"
-            },
-            "pressed": {
-              "value": "$color.status.success.weak",
-              "type": "color"
-            }
+      "warning": {
+        "default": {
+          "background-color": {
+            "value": "$color.status.warning.default",
+            "type": "color"
           }
         },
-        "info": {
-          "primary": {
-            "default": {
-              "value": "$color.status.info.default",
-              "type": "color"
-            },
-            "hover": {
-              "value": "$color.status.info.weak",
-              "type": "color"
-            },
-            "pressed": {
-              "value": "$color.status.info.strong",
-              "type": "color"
-            }
-          },
-          "secondary": {
-            "default": {
-              "value": "$color.status.info.weakest",
-              "type": "color"
-            },
-            "hover": {
-              "value": "$color.status.info.weaker",
-              "type": "color"
-            },
-            "pressed": {
-              "value": "$color.status.info.weak",
-              "type": "color"
-            }
+        "hover": {
+          "background-color": {
+            "value": "$color.status.warning.weak",
+            "type": "color"
+          }
+        }
+      },
+      "critical": {
+        "default": {
+          "background-color": {
+            "value": "$color.status.critical.default",
+            "type": "color"
           }
         },
-        "warning": {
-          "primary": {
-            "default": {
-              "value": "$color.status.warning.default",
-              "type": "color"
-            },
-            "hover": {
-              "value": "$color.status.warning.weak",
-              "type": "color"
-            },
-            "pressed": {
-              "value": "$color.status.warning.strong",
-              "type": "color"
-            }
-          },
-          "secondary": {
-            "default": {
-              "value": "$color.status.warning.weakest",
-              "type": "color"
-            },
-            "hover": {
-              "value": "$color.status.warning.weaker",
-              "type": "color"
-            },
-            "pressed": {
-              "value": "$color.status.warning.weak",
-              "type": "color"
-            }
+        "hover": {
+          "background-color": {
+            "value": "$color.status.critical.weak",
+            "type": "color"
+          }
+        }
+      },
+      "neutral": {
+        "default": {
+          "background-color": {
+            "value": "$color.status.neutral.default",
+            "type": "color"
           }
         },
-        "critical": {
-          "primary": {
-            "default": {
-              "value": "$color.status.critical.default",
-              "type": "color"
-            },
-            "hover": {
-              "value": "$color.status.critical.weak",
-              "type": "color"
-            },
-            "pressed": {
-              "value": "$color.status.critical.strong",
-              "type": "color"
-            }
-          },
-          "secondary": {
-            "default": {
-              "value": "$color.status.critical.weakest",
-              "type": "color"
-            },
-            "hover": {
-              "value": "$color.status.critical.weaker",
-              "type": "color"
-            },
-            "pressed": {
-              "value": "$color.status.critical.weak",
-              "type": "color"
-            }
-          }
-        },
-        "neutral": {
-          "primary": {
-            "default": {
-              "value": "$color.status.neutral.default",
-              "type": "color"
-            },
-            "hover": {
-              "value": "$color.status.neutral.weak",
-              "type": "color"
-            },
-            "pressed": {
-              "value": "$color.status.neutral.strong",
-              "type": "color"
-            }
-          },
-          "secondary": {
-            "default": {
-              "value": "$color.status.neutral.weakest",
-              "type": "color"
-            },
-            "hover": {
-              "value": "$color.status.neutral.weaker",
-              "type": "color"
-            },
-            "pressed": {
-              "value": "$color.status.neutral.weak",
-              "type": "color"
-            }
+        "hover": {
+          "background-color": {
+            "value": "$color.status.neutral.weak",
+            "type": "color"
           }
         }
       }
+    },
+    "secondary": {
+      "text-color": {
+        "value": "$color.text.onSolidInversed",
+        "type": "color"
+      },
+      "icon-color": {
+        "value": "$color.icon.onSolidInversed",
+        "type": "color"
+      },
+      "success": {
+        "default": {
+          "background-color": {
+            "value": "$color.status.success.weakest",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "background-color": {
+            "value": "$color.status.success.weaker",
+            "type": "color"
+          }
+        }
+      },
+      "info": {
+        "default": {
+          "background-color": {
+            "value": "$color.status.info.weakest",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "background-color": {
+            "value": "$color.status.info.weaker",
+            "type": "color"
+          }
+        }
+      },
+      "warning": {
+        "default": {
+          "background-color": {
+            "value": "$color.status.warning.weakest",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "background-color": {
+            "value": "$color.status.warning.weaker",
+            "type": "color"
+          }
+        }
+      },
+      "critical": {
+        "default": {
+          "background-color": {
+            "value": "$color.status.critical.weakest",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "background-color": {
+            "value": "$color.status.critical.weaker",
+            "type": "color"
+          }
+        }
+      },
+      "neutral": {
+        "default": {
+          "background-color": {
+            "value": "$color.status.neutral.weakest",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "background-color": {
+            "value": "$color.status.neutral.weaker",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "pill": {
+      "border-radius": {
+        "value": "$borderRadius.16",
+        "type": "borderRadius"
+      }
+    },
+    "rectangle": {
+      "border-radius": {
+        "value": "$borderRadius.6",
+        "type": "borderRadius"
+      }
+    },
+    "font-family": {
+      "value": "{nunitoSans}",
+      "type": "fontFamilies"
+    },
+    "font-weight": {
+      "value": "$fontWeight.Bold",
+      "type": "fontWeights"
+    },
+    "font-size": {
+      "value": "$fontSize.200",
+      "type": "fontSizes"
+    },
+    "line-height": {
+      "value": "$lineHeight.100",
+      "type": "lineHeights"
+    },
+    "text-case": {
+      "value": "$textCase.none",
+      "type": "textCase"
     },
     "font": {
-      "default": {
-        "value": "$font.n.h6",
-        "type": "typography"
-      }
+      "value": {
+        "fontFamily": "{badge.font-family}",
+        "fontWeight": "{badge.font-weight}",
+        "lineHeight": "{badge.line-height}",
+        "fontSize": "{badge.font-size}",
+        "letterSpacing": "{letterSpacing.none}",
+        "textDecoration": "{textDecoration.none}",
+        "textCase": "{badge.text-case}"
+      },
+      "type": "typography"
     },
-    "borderRadius": {
-      "style": {
-        "pill": {
-          "value": "$borderRadius.16",
-          "type": "borderRadius"
-        },
-        "rectangle": {
-          "value": "$borderRadius.6",
-          "type": "borderRadius"
-        }
-      }
+    "text-decoration": {
+      "value": "$textDecoration.none",
+      "type": "textDecoration"
     }
   }
 }
