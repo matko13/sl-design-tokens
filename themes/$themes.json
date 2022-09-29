@@ -551,7 +551,8 @@
       "badge.secondary.critical.default.background-color": "S:3ed5fae307bd39467e2ca3c3d4702487f8b2995a,",
       "badge.secondary.critical.hover.background-color": "S:85480fb53f2402898796f6396aa979d23553c051,",
       "badge.secondary.neutral.default.background-color": "S:109c18ab943d47a85ab201c6e2cdf7abb613c431,",
-      "badge.secondary.neutral.hover.background-color": "S:7e5b8ae0fdce689a9c533b629e565effb118891c,"
+      "badge.secondary.neutral.hover.background-color": "S:7e5b8ae0fdce689a9c533b629e565effb118891c,",
+      "badge.font": "S:0a32dfb0626156f0709a13933daffb1aa2948311,"
     }
   },
   {

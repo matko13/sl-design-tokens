@@ -160,13 +160,13 @@
         }
       }
     },
-    "pill": {
+    "pill-shaped": {
       "border-radius": {
         "value": "$borderRadius.16",
         "type": "borderRadius"
       }
     },
-    "rectangle": {
+    "rectangle-shaped": {
       "border-radius": {
         "value": "$borderRadius.6",
         "type": "borderRadius"
