@@ -2,23 +2,23 @@
   "badge": {
     "primary": {
       "text-color": {
-        "value": "$color.text.onSolid",
+        "value": "$semantic.color.text.onSolid",
         "type": "color"
       },
       "icon-color": {
-        "value": "$color.icon.onSolid",
+        "value": "$semantic.color.icon.onSolid",
         "type": "color"
       },
       "success": {
         "default": {
           "background-color": {
-            "value": "$color.status.success.default",
+            "value": "$semantic.color.status.success.default",
             "type": "color"
           }
         },
         "hover": {
           "background-color": {
-            "value": "$color.status.success.weak",
+            "value": "$semantic.color.status.success.weak",
             "type": "color"
           }
         }
@@ -26,13 +26,13 @@
       "info": {
         "default": {
           "background-color": {
-            "value": "$color.status.info.default",
+            "value": "$semantic.color.status.info.default",
             "type": "color"
           }
         },
         "hover": {
           "background-color": {
-            "value": "$color.status.info.weak",
+            "value": "$semantic.color.status.info.weak",
             "type": "color"
           }
         }
@@ -40,13 +40,13 @@
       "warning": {
         "default": {
           "background-color": {
-            "value": "$color.status.warning.default",
+            "value": "$semantic.color.status.warning.default",
             "type": "color"
           }
         },
         "hover": {
           "background-color": {
-            "value": "$color.status.warning.weak",
+            "value": "$semantic.color.status.warning.weak",
             "type": "color"
           }
         }
@@ -54,13 +54,13 @@
       "critical": {
         "default": {
           "background-color": {
-            "value": "$color.status.critical.default",
+            "value": "$semantic.color.status.critical.default",
             "type": "color"
           }
         },
         "hover": {
           "background-color": {
-            "value": "$color.status.critical.weak",
+            "value": "$semantic.color.status.critical.weak",
             "type": "color"
           }
         }
@@ -68,13 +68,13 @@
       "neutral": {
         "default": {
           "background-color": {
-            "value": "$color.status.neutral.default",
+            "value": "$semantic.color.status.neutral.default",
             "type": "color"
           }
         },
         "hover": {
           "background-color": {
-            "value": "$color.status.neutral.weak",
+            "value": "$semantic.color.status.neutral.weak",
             "type": "color"
           }
         }
@@ -82,23 +82,23 @@
     },
     "secondary": {
       "text-color": {
-        "value": "$color.text.onSolidInversed",
+        "value": "$semantic.color.text.onSolidInversed",
         "type": "color"
       },
       "icon-color": {
-        "value": "$color.icon.onSolidInversed",
+        "value": "$semantic.color.icon.onSolidInversed",
         "type": "color"
       },
       "success": {
         "default": {
           "background-color": {
-            "value": "$color.status.success.weakest",
+            "value": "$semantic.color.status.success.weakest",
             "type": "color"
           }
         },
         "hover": {
           "background-color": {
-            "value": "$color.status.success.weaker",
+            "value": "$semantic.color.status.success.weaker",
             "type": "color"
           }
         }
@@ -106,13 +106,13 @@
       "info": {
         "default": {
           "background-color": {
-            "value": "$color.status.info.weakest",
+            "value": "$semantic.color.status.info.weakest",
             "type": "color"
           }
         },
         "hover": {
           "background-color": {
-            "value": "$color.status.info.weaker",
+            "value": "$semantic.color.status.info.weaker",
             "type": "color"
           }
         }
@@ -120,13 +120,13 @@
       "warning": {
         "default": {
           "background-color": {
-            "value": "$color.status.warning.weakest",
+            "value": "$semantic.color.status.warning.weakest",
             "type": "color"
           }
         },
         "hover": {
           "background-color": {
-            "value": "$color.status.warning.weaker",
+            "value": "$semantic.color.status.warning.weaker",
             "type": "color"
           }
         }
@@ -134,13 +134,13 @@
       "critical": {
         "default": {
           "background-color": {
-            "value": "$color.status.critical.weakest",
+            "value": "$semantic.color.status.critical.weakest",
             "type": "color"
           }
         },
         "hover": {
           "background-color": {
-            "value": "$color.status.critical.weaker",
+            "value": "$semantic.color.status.critical.weaker",
             "type": "color"
           }
         }
@@ -148,13 +148,13 @@
       "neutral": {
         "default": {
           "background-color": {
-            "value": "$color.status.neutral.weakest",
+            "value": "$semantic.color.status.neutral.weakest",
             "type": "color"
           }
         },
         "hover": {
           "background-color": {
-            "value": "$color.status.neutral.weaker",
+            "value": "$semantic.color.status.neutral.weaker",
             "type": "color"
           }
         }
@@ -198,7 +198,7 @@
         "fontWeight": "{badge.font-weight}",
         "lineHeight": "{badge.line-height}",
         "fontSize": "{badge.font-size}",
-        "letterSpacing": "{letterSpacing.none}",
+        "letterSpacing": "$badge.letter-spacing",
         "textDecoration": "{textDecoration.none}",
         "textCase": "{badge.text-case}"
       },
@@ -207,6 +207,10 @@
     "text-decoration": {
       "value": "$textDecoration.none",
       "type": "textDecoration"
+    },
+    "letter-spacing": {
+      "value": "$letterSpacing.none",
+      "type": "letterSpacing"
     }
   }
 }
