@@ -198,8 +198,8 @@
         "fontWeight": "{badge.font-weight}",
         "lineHeight": "{badge.line-height}",
         "fontSize": "{badge.font-size}",
-        "letterSpacing": "$badge.letter-spacing",
-        "textDecoration": "{textDecoration.none}",
+        "letterSpacing": "{badge.letter-spacing}",
+        "textDecoration": "{badge.text-decoration}",
         "textCase": "{badge.text-case}"
       },
       "type": "typography"
