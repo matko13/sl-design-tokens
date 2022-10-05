@@ -1,0 +1,164 @@
+{
+  "button": {
+    "primary": {
+      "default": {
+        "background-color": {
+          "value": "$semantic.color.action.primary.defaut",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "background-color": {
+          "value": "$semantic.color.action.primary.hovered",
+          "type": "color"
+        }
+      },
+      "pressed": {
+        "background-color": {
+          "value": "$semantic.color.action.primary.pressed",
+          "type": "color"
+        }
+      },
+      "text-color": {
+        "value": "$semantic.color.text.onSolid",
+        "type": "color"
+      },
+      "icon-color": {
+        "value": "$semantic.color.icon.onSolid",
+        "type": "color"
+      }
+    },
+    "large": {
+      "border-radius": {
+        "value": "{borderRadius.8}",
+        "type": "borderRadius"
+      },
+      "font-size": {
+        "value": "$fontSize.300",
+        "type": "fontSizes"
+      },
+      "font": {
+        "value": {
+          "fontFamily": "$button.font-family",
+          "fontWeight": "$button.font-weight",
+          "lineHeight": "$button.line-height",
+          "fontSize": "{button.large.font-size}",
+          "letterSpacing": "$button.letter-spacing",
+          "textDecoration": "$button.text-decoration",
+          "textCase": "$button.text-case"
+        },
+        "type": "typography"
+      }
+    },
+    "medium": {
+      "border-radius": {
+        "value": "{borderRadius.6}",
+        "type": "borderRadius"
+      },
+      "font-size": {
+        "value": "$fontSize.200",
+        "type": "fontSizes"
+      },
+      "font": {
+        "value": {
+          "fontFamily": "$button.font-family",
+          "fontWeight": "$button.font-weight",
+          "lineHeight": "$button.line-height",
+          "fontSize": "{button.medium.font-size}",
+          "letterSpacing": "$button.letter-spacing",
+          "textDecoration": "$button.text-decoration",
+          "textCase": "$button.text-case"
+        },
+        "type": "typography"
+      }
+    },
+    "small": {
+      "border-radius": {
+        "value": "{borderRadius.6}",
+        "type": "borderRadius"
+      },
+      "font-size": {
+        "value": "$fontSize.200",
+        "type": "fontSizes"
+      },
+      "font": {
+        "value": {
+          "fontFamily": "$button.font-family",
+          "fontWeight": "$button.font-weight",
+          "lineHeight": "$button.line-height",
+          "fontSize": "{button.small.font-size}",
+          "letterSpacing": "$button.letter-spacing",
+          "textDecoration": "$button.text-decoration",
+          "textCase": "$button.text-case"
+        },
+        "type": "typography"
+      }
+    },
+    "font-family": {
+      "value": "$nunitoSans",
+      "type": "fontFamilies"
+    },
+    "font-weight": {
+      "value": "{fontWeight.semiBold}",
+      "type": "fontWeights"
+    },
+    "line-height": {
+      "value": "$lineHeight.100",
+      "type": "lineHeights"
+    },
+    "letter-spacing": {
+      "value": "$letterSpacing.none",
+      "type": "letterSpacing"
+    },
+    "text-case": {
+      "value": "{textCase.none}",
+      "type": "textCase"
+    },
+    "text-decoration": {
+      "value": "$textDecoration.none",
+      "type": "textDecoration"
+    },
+    "disabled": {
+      "background-color": {
+        "value": "$semantic.color.action.disabled",
+        "type": "color"
+      },
+      "text-color": {
+        "value": "$semantic.color.text.disabled",
+        "type": "color"
+      },
+      "icon-color": {
+        "value": "$semantic.color.icon.disabled",
+        "type": "color"
+      }
+    },
+    "primary-copy": {
+      "default": {
+        "background-color": {
+          "value": "$semantic.color.action.primary.defaut",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "background-color": {
+          "value": "$semantic.color.action.primary.hovered",
+          "type": "color"
+        }
+      },
+      "pressed": {
+        "background-color": {
+          "value": "$semantic.color.action.primary.pressed",
+          "type": "color"
+        }
+      },
+      "text-color": {
+        "value": "$semantic.color.text.onSolid",
+        "type": "color"
+      },
+      "icon-color": {
+        "value": "$semantic.color.icon.onSolid",
+        "type": "color"
+      }
+    }
+  }
+}

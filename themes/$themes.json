@@ -12,7 +12,8 @@
       "Semantic/Dark": "disabled",
       "Core/borderRadius": "enabled",
       "Core/padding": "enabled",
-      "Core/boxShadow": "enabled"
+      "Core/boxShadow": "enabled",
+      "Components/Button": "disabled"
     },
     "$figmaStyleReferences": {
       "color.backround": "S:061ab8ae7c09229b439af5eaf1dc0eee166d13cd,",
@@ -651,7 +652,8 @@
       "Semantic/Dark": "enabled",
       "Core/borderRadius": "enabled",
       "Core/padding": "enabled",
-      "Core/boxShadow": "enabled"
+      "Core/boxShadow": "enabled",
+      "Components/Button": "disabled"
     },
     "$figmaStyleReferences": {
       "color.backround": "S:8cc355bff75dfd4b444a4439c8705a636b58917f,",
