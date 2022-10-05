@@ -320,7 +320,7 @@
             "type": "color"
           },
           "weak": {
-            "value": "$color.green.300",
+            "value": "$color.green.400",
             "type": "color"
           },
           "weaker": {
@@ -342,7 +342,7 @@
             "type": "color"
           },
           "weak": {
-            "value": "$color.yellow.300",
+            "value": "$color.yellow.400",
             "type": "color"
           },
           "weaker": {
@@ -364,7 +364,7 @@
             "type": "color"
           },
           "weak": {
-            "value": "$color.red.300",
+            "value": "$color.red.400",
             "type": "color"
           },
           "weaker": {
@@ -386,7 +386,7 @@
             "type": "color"
           },
           "weak": {
-            "value": "$color.blue.300",
+            "value": "$color.blue.400",
             "type": "color"
           },
           "weaker": {
