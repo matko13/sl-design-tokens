@@ -42,7 +42,7 @@
           "fontFamily": "$button.font-family",
           "fontWeight": "$button.font-weight",
           "lineHeight": "$button.line-height",
-          "fontSize": "{button.large.font-size}",
+          "fontSize": "$button.large.font-size",
           "letterSpacing": "$button.letter-spacing",
           "textDecoration": "$button.text-decoration",
           "textCase": "$button.text-case"
@@ -64,7 +64,7 @@
           "fontFamily": "$button.font-family",
           "fontWeight": "$button.font-weight",
           "lineHeight": "$button.line-height",
-          "fontSize": "{button.medium.font-size}",
+          "fontSize": "$button.medium.font-size",
           "letterSpacing": "$button.letter-spacing",
           "textDecoration": "$button.text-decoration",
           "textCase": "$button.text-case"
@@ -86,7 +86,7 @@
           "fontFamily": "$button.font-family",
           "fontWeight": "$button.font-weight",
           "lineHeight": "$button.line-height",
-          "fontSize": "{button.small.font-size}",
+          "fontSize": "$button.small.font-size",
           "letterSpacing": "$button.letter-spacing",
           "textDecoration": "$button.text-decoration",
           "textCase": "$button.text-case"
@@ -202,6 +202,14 @@
           "value": "$semantic.color.action.contrast.pressed",
           "type": "color"
         }
+      },
+      "text-color": {
+        "value": "$semantic.color.text.onInversed",
+        "type": "color"
+      },
+      "icon-color": {
+        "value": "$semantic.color.icon.onInversed",
+        "type": "color"
       }
     },
     "danger": {

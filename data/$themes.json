@@ -657,9 +657,9 @@
       "button.secondary.hover.border-color": "S:7d8bda90d53d84d57329c17cf86d479bd24ae097,",
       "semantic.color.text.disabled": "S:57177ed81775ea10ce3d3e35b33fb1748e2ec8bb,",
       "semantic.color.icon.disabled": "S:f70f8dc3571473ea905ce117505443eb78800330,",
-      "button.large.font": "S:0f35e79928cd65cae0a862b1bfd6ffc696d697ff,",
-      "button.medium.font": "S:42cab6d7b5f674232d3c1a6620f68c0544aadee8,",
-      "button.small.font": "S:158ed1afeb95632d8eafa0d7e5bdb84282070aa6,",
+      "button.large.font": "S:3931aa480b2553bf097477e17363fe44b4a7f6c2,",
+      "button.medium.font": "S:f2bafcb4abc9bedf549e0f149732aeff87f19a81,",
+      "button.small.font": "S:9050b2eb6c220758fb6c61546499d1761b297eab,",
       "button.secondary.hover.text-color": "S:111da6ba7d67fbdafc4e15b32699f1c7d2f56c49,",
       "button.secondary.hover.icon-color": "S:43801472dd83df9451c9e81fe28f16388b01d4be,",
       "button.contrast.default.background-color": "S:604323afade3093af9e997e3a8cffc4945479ada,",
@@ -689,7 +689,9 @@
       "button.marketing.hover.background-color": "S:e3aa09ac36b3f5aefd47c5f25e45796eba76a555,",
       "button.marketing.pressed.background-color": "S:0459d5a908f1f49999052d8893ade136a14ea100,",
       "button.marketing.text-color": "S:fd639c624a81f143a711cc6c40a0c772f885f724,",
-      "button.marketing.icon-color": "S:4b63e098c20cb861573eb9afe846a621164fa2de,"
+      "button.marketing.icon-color": "S:4b63e098c20cb861573eb9afe846a621164fa2de,",
+      "button.contrast.text-color": "S:1177a1a76b03462b9dd09c5abf75715ef953dbf2,",
+      "button.contrast.icon-color": "S:85950d979c56cc453fcb5fdea1cbd72e088bd612,"
     }
   },
   {
