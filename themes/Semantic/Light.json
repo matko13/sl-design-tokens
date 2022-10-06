@@ -37,10 +37,10 @@
           "type": "color",
           "description": "Used for pressed plain buttons, radio buttons, checkboxes."
         },
-        "critical": {
+        "danger": {
           "value": "$color.red.500",
           "type": "color",
-          "description": "For use as a text color in critical elements."
+          "description": "For use as a text color in danger elements."
         },
         "secondary": {
           "default": {
@@ -91,10 +91,10 @@
           "type": "color",
           "description": "For use as a text color in warning elements such as exception list. "
         },
-        "critical": {
+        "danger": {
           "value": "$color.red.500",
           "type": "color",
-          "description": "For use as a text color in critical elements such as exception list. "
+          "description": "For use as a text color in danger elements such as exception list. "
         },
         "success": {
           "value": "$color.green.500",
@@ -110,6 +110,11 @@
           "value": "{color.gray.900}",
           "type": "color",
           "description": "Text color on actions which have less prominent fill."
+        },
+        "disabled": {
+          "value": "$color.gray.500",
+          "type": "color",
+          "description": "color used for disabled texts"
         }
       },
       "icon": {
@@ -123,10 +128,10 @@
           "type": "color",
           "description": "Subdued color for icons.\n"
         },
-        "critical": {
+        "danger": {
           "value": "$color.red.500",
           "type": "color",
-          "description": "Color for critical icons"
+          "description": "Color for danger icons"
         },
         "warning": {
           "value": "$color.yellow.500",
@@ -157,6 +162,11 @@
           "value": "$color.gray.50",
           "type": "color",
           "description": "For icons placed on inversed surfaces."
+        },
+        "disabled": {
+          "value": "$color.gray.500",
+          "type": "color",
+          "description": "color used for disabled states of icons, especially on actions"
         }
       },
       "surface": {
@@ -205,7 +215,7 @@
             "description": "Used as the background color for pressed primary actions"
           }
         },
-        "critical": {
+        "danger": {
           "default": {
             "value": "$color.red.500",
             "type": "color",
@@ -268,6 +278,20 @@
             "value": "{color.gray.900}",
             "type": "color"
           }
+        },
+        "marketing": {
+          "default": {
+            "value": "$color.turquoise.500",
+            "type": "color"
+          },
+          "hover": {
+            "value": "$color.turquoise.400",
+            "type": "color"
+          },
+          "pressed": {
+            "value": "$color.turquoise.600",
+            "type": "color"
+          }
         }
       },
       "border": {
@@ -297,7 +321,7 @@
             "type": "color"
           }
         },
-        "critical": {
+        "danger": {
           "default": {
             "value": "$color.red.300",
             "type": "color"
@@ -354,7 +378,7 @@
             "type": "color"
           }
         },
-        "critical": {
+        "danger": {
           "strong": {
             "value": "$color.red.600",
             "type": "color"
