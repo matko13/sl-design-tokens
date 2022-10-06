@@ -1,0 +1,216 @@
+{
+  "badge": {
+    "primary": {
+      "text-color": {
+        "value": "$semantic.color.text.onSolid",
+        "type": "color"
+      },
+      "icon-color": {
+        "value": "$semantic.color.icon.onSolid",
+        "type": "color"
+      },
+      "success": {
+        "default": {
+          "background-color": {
+            "value": "$semantic.color.status.success.default",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "background-color": {
+            "value": "$semantic.color.status.success.weak",
+            "type": "color"
+          }
+        }
+      },
+      "info": {
+        "default": {
+          "background-color": {
+            "value": "$semantic.color.status.info.default",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "background-color": {
+            "value": "$semantic.color.status.info.weak",
+            "type": "color"
+          }
+        }
+      },
+      "warning": {
+        "default": {
+          "background-color": {
+            "value": "$semantic.color.status.warning.default",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "background-color": {
+            "value": "$semantic.color.status.warning.weak",
+            "type": "color"
+          }
+        }
+      },
+      "critical": {
+        "default": {
+          "background-color": {
+            "value": "$semantic.color.status.critical.default",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "background-color": {
+            "value": "$semantic.color.status.critical.weak",
+            "type": "color"
+          }
+        }
+      },
+      "neutral": {
+        "default": {
+          "background-color": {
+            "value": "$semantic.color.status.neutral.default",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "background-color": {
+            "value": "$semantic.color.status.neutral.weak",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "secondary": {
+      "text-color": {
+        "value": "$semantic.color.text.onSolidInversed",
+        "type": "color"
+      },
+      "icon-color": {
+        "value": "$semantic.color.icon.onSolidInversed",
+        "type": "color"
+      },
+      "success": {
+        "default": {
+          "background-color": {
+            "value": "$semantic.color.status.success.weakest",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "background-color": {
+            "value": "$semantic.color.status.success.weaker",
+            "type": "color"
+          }
+        }
+      },
+      "info": {
+        "default": {
+          "background-color": {
+            "value": "$semantic.color.status.info.weakest",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "background-color": {
+            "value": "$semantic.color.status.info.weaker",
+            "type": "color"
+          }
+        }
+      },
+      "warning": {
+        "default": {
+          "background-color": {
+            "value": "$semantic.color.status.warning.weakest",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "background-color": {
+            "value": "$semantic.color.status.warning.weaker",
+            "type": "color"
+          }
+        }
+      },
+      "critical": {
+        "default": {
+          "background-color": {
+            "value": "$semantic.color.status.critical.weakest",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "background-color": {
+            "value": "$semantic.color.status.critical.weaker",
+            "type": "color"
+          }
+        }
+      },
+      "neutral": {
+        "default": {
+          "background-color": {
+            "value": "$semantic.color.status.neutral.weakest",
+            "type": "color"
+          }
+        },
+        "hover": {
+          "background-color": {
+            "value": "$semantic.color.status.neutral.weaker",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "pill-shaped": {
+      "border-radius": {
+        "value": "$borderRadius.16",
+        "type": "borderRadius"
+      }
+    },
+    "rectangle-shaped": {
+      "border-radius": {
+        "value": "$borderRadius.6",
+        "type": "borderRadius"
+      }
+    },
+    "font-family": {
+      "value": "{nunitoSans}",
+      "type": "fontFamilies"
+    },
+    "font-weight": {
+      "value": "$fontWeight.Bold",
+      "type": "fontWeights"
+    },
+    "font-size": {
+      "value": "$fontSize.200",
+      "type": "fontSizes"
+    },
+    "line-height": {
+      "value": "$lineHeight.100",
+      "type": "lineHeights"
+    },
+    "text-case": {
+      "value": "$textCase.none",
+      "type": "textCase"
+    },
+    "font": {
+      "value": {
+        "fontFamily": "{badge.font-family}",
+        "fontWeight": "{badge.font-weight}",
+        "lineHeight": "{badge.line-height}",
+        "fontSize": "{badge.font-size}",
+        "letterSpacing": "{badge.letter-spacing}",
+        "textDecoration": "{badge.text-decoration}",
+        "textCase": "{badge.text-case}"
+      },
+      "type": "typography"
+    },
+    "text-decoration": {
+      "value": "$textDecoration.none",
+      "type": "textDecoration"
+    },
+    "letter-spacing": {
+      "value": "$letterSpacing.none",
+      "type": "letterSpacing"
+    }
+  }
+}

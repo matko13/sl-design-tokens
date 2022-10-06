@@ -1,0 +1,264 @@
+{
+  "button": {
+    "primary": {
+      "default": {
+        "background-color": {
+          "value": "$semantic.color.action.primary.defaut",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "background-color": {
+          "value": "$semantic.color.action.primary.hovered",
+          "type": "color"
+        }
+      },
+      "pressed": {
+        "background-color": {
+          "value": "$semantic.color.action.primary.pressed",
+          "type": "color"
+        }
+      },
+      "text-color": {
+        "value": "$semantic.color.text.onSolid",
+        "type": "color"
+      },
+      "icon-color": {
+        "value": "$semantic.color.icon.onSolid",
+        "type": "color"
+      }
+    },
+    "large": {
+      "border-radius": {
+        "value": "{borderRadius.8}",
+        "type": "borderRadius"
+      },
+      "font-size": {
+        "value": "$fontSize.300",
+        "type": "fontSizes"
+      },
+      "font": {
+        "value": {
+          "fontFamily": "$button.font-family",
+          "fontWeight": "$button.font-weight",
+          "lineHeight": "$button.line-height",
+          "fontSize": "{button.large.font-size}",
+          "letterSpacing": "$button.letter-spacing",
+          "textDecoration": "$button.text-decoration",
+          "textCase": "$button.text-case"
+        },
+        "type": "typography"
+      }
+    },
+    "medium": {
+      "border-radius": {
+        "value": "{borderRadius.6}",
+        "type": "borderRadius"
+      },
+      "font-size": {
+        "value": "$fontSize.200",
+        "type": "fontSizes"
+      },
+      "font": {
+        "value": {
+          "fontFamily": "$button.font-family",
+          "fontWeight": "$button.font-weight",
+          "lineHeight": "$button.line-height",
+          "fontSize": "{button.medium.font-size}",
+          "letterSpacing": "$button.letter-spacing",
+          "textDecoration": "$button.text-decoration",
+          "textCase": "$button.text-case"
+        },
+        "type": "typography"
+      }
+    },
+    "small": {
+      "border-radius": {
+        "value": "{borderRadius.6}",
+        "type": "borderRadius"
+      },
+      "font-size": {
+        "value": "$fontSize.200",
+        "type": "fontSizes"
+      },
+      "font": {
+        "value": {
+          "fontFamily": "$button.font-family",
+          "fontWeight": "$button.font-weight",
+          "lineHeight": "$button.line-height",
+          "fontSize": "{button.small.font-size}",
+          "letterSpacing": "$button.letter-spacing",
+          "textDecoration": "$button.text-decoration",
+          "textCase": "$button.text-case"
+        },
+        "type": "typography"
+      }
+    },
+    "font-family": {
+      "value": "$nunitoSans",
+      "type": "fontFamilies"
+    },
+    "font-weight": {
+      "value": "{fontWeight.semiBold}",
+      "type": "fontWeights"
+    },
+    "line-height": {
+      "value": "$lineHeight.100",
+      "type": "lineHeights"
+    },
+    "letter-spacing": {
+      "value": "$letterSpacing.none",
+      "type": "letterSpacing"
+    },
+    "text-case": {
+      "value": "{textCase.none}",
+      "type": "textCase"
+    },
+    "text-decoration": {
+      "value": "$textDecoration.none",
+      "type": "textDecoration"
+    },
+    "disabled": {
+      "background-color": {
+        "value": "$semantic.color.action.disabled",
+        "type": "color"
+      },
+      "text-color": {
+        "value": "$semantic.color.text.disabled",
+        "type": "color"
+      },
+      "icon-color": {
+        "value": "$semantic.color.icon.disabled",
+        "type": "color"
+      }
+    },
+    "secondary": {
+      "default": {
+        "background-color": {
+          "value": "$semantic.color.action.secondary.default",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "$semantic.color.border.neutral.default",
+          "type": "color"
+        },
+        "icon-color": {
+          "value": "$semantic.color.icon.default",
+          "type": "color"
+        },
+        "text-color": {
+          "value": "$semantic.color.text.default",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "background-color": {
+          "value": "$semantic.color.action.secondary.hovered",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "$semantic.color.border.neutral.strong",
+          "type": "color"
+        },
+        "text-color": {
+          "value": "$semantic.color.text.default",
+          "type": "color"
+        },
+        "icon-color": {
+          "value": "$semantic.color.icon.default",
+          "type": "color"
+        }
+      },
+      "pressed": {
+        "background-color": {
+          "value": "$semantic.color.action.secondary.pressed",
+          "type": "color"
+        }
+      },
+      "text-color": {
+        "value": "$semantic.color.text.onSolid",
+        "type": "color"
+      },
+      "icon-color": {
+        "value": "$semantic.color.icon.onSolid",
+        "type": "color"
+      }
+    },
+    "contrast": {
+      "default": {
+        "background-color": {
+          "value": "$semantic.color.action.contrast.default",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "background-color": {
+          "value": "$semantic.color.action.contrast.hovered",
+          "type": "color"
+        }
+      },
+      "pressed": {
+        "background-color": {
+          "value": "$semantic.color.action.contrast.pressed",
+          "type": "color"
+        }
+      }
+    },
+    "danger": {
+      "default": {
+        "background-color": {
+          "value": "$semantic.color.action.danger.default",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "background-color": {
+          "value": "$semantic.color.action.danger.hovered",
+          "type": "color"
+        }
+      },
+      "pressed": {
+        "background-color": {
+          "value": "$semantic.color.action.danger.pressed",
+          "type": "color"
+        }
+      },
+      "text-color": {
+        "value": "$semantic.color.text.onSolid",
+        "type": "color"
+      },
+      "icon-color": {
+        "value": "$semantic.color.icon.onSolid",
+        "type": "color"
+      }
+    },
+    "marketing": {
+      "default": {
+        "background-color": {
+          "value": "$semantic.color.action.marketing.default",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "background-color": {
+          "value": "$semantic.color.action.marketing.hover",
+          "type": "color"
+        }
+      },
+      "pressed": {
+        "background-color": {
+          "value": "$semantic.color.action.marketing.pressed",
+          "type": "color"
+        }
+      },
+      "text-color": {
+        "value": "$semantic.color.text.default",
+        "type": "color"
+      },
+      "icon-color": {
+        "value": "$semantic.color.icon.default",
+        "type": "color"
+      }
+    }
+  }
+}
