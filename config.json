@@ -6,7 +6,10 @@
       "files": [
         {
           "destination": "css/variables.css",
-          "format": "css/variables"
+          "format": "css/variables",
+          "options": {
+            "outputReferences": true
+          }
         }
       ]
     }
