@@ -51,16 +51,16 @@
           }
         }
       },
-      "critical": {
+      "danger": {
         "default": {
           "background-color": {
-            "value": "$semantic.color.status.critical.default",
+            "value": "$semantic.color.status.danger.default",
             "type": "color"
           }
         },
         "hover": {
           "background-color": {
-            "value": "$semantic.color.status.critical.weak",
+            "value": "$semantic.color.status.danger.weak",
             "type": "color"
           }
         }

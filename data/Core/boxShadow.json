@@ -6,7 +6,7 @@
         "y": "1",
         "blur": "2",
         "spread": "0",
-        "color": "rgba({color.gray.900}, 0.16)",
+        "color": "rgba({colors.gray.900}, 0.16)",
         "type": "dropShadow"
       },
       "type": "boxShadow"
@@ -18,7 +18,7 @@
           "y": "2",
           "blur": "4",
           "spread": "0",
-          "color": "rgba({color.gray.900}, 0.12)",
+          "color": "rgba({colors.gray.900}, 0.12)",
           "type": "dropShadow"
         },
         {
@@ -26,7 +26,7 @@
           "y": "1",
           "blur": "1",
           "spread": "0",
-          "color": "rgba({color.gray.900}, 0.06)",
+          "color": "rgba({colors.gray.900}, 0.06)",
           "type": "dropShadow"
         }
       ],
@@ -39,7 +39,7 @@
           "y": "3",
           "blur": "6",
           "spread": "0",
-          "color": "rgba({color.gray.900}, 0.12)",
+          "color": "rgba({colors.gray.900}, 0.12)",
           "type": "dropShadow"
         },
         {
@@ -47,7 +47,7 @@
           "y": "1",
           "blur": "2",
           "spread": "0",
-          "color": "rgba({color.gray.900}, 0.1)",
+          "color": "rgba({colors.gray.900}, 0.1)",
           "type": "innerShadow"
         }
       ],
@@ -60,7 +60,7 @@
           "y": "5",
           "blur": "12",
           "spread": "0",
-          "color": "rgba({color.gray.900}, 0.12)",
+          "color": "rgba({colors.gray.900}, 0.12)",
           "type": "dropShadow"
         },
         {
@@ -68,7 +68,7 @@
           "y": "2",
           "blur": "4",
           "spread": "0",
-          "color": "rgba({color.gray.900}, 0.08)",
+          "color": "rgba({colors.gray.900}, 0.08)",
           "type": "dropShadow"
         }
       ],
@@ -81,7 +81,7 @@
           "y": "9",
           "blur": "24",
           "spread": "0",
-          "color": "rgba({color.gray.900}, 0.12)",
+          "color": "rgba({colors.gray.900}, 0.12)",
           "type": "dropShadow"
         },
         {
@@ -89,7 +89,7 @@
           "y": "4",
           "blur": "6",
           "spread": "0",
-          "color": "rgba({color.gray.900}, 0.1)",
+          "color": "rgba({colors.gray.900}, 0.1)",
           "type": "dropShadow"
         }
       ],

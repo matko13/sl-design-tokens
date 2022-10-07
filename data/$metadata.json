@@ -1,12 +1,12 @@
 {
   "tokenSetOrder": [
-    "Core/Colors",
-    "Core/Typography",
+    "Core/colors",
+    "Core/typography",
     "Core/borderRadius",
     "Core/padding",
     "Core/boxShadow",
-    "Semantic/Light",
-    "Semantic/Dark",
+    "Semantic/light",
+    "Semantic/dark",
     "Components/Button",
     "Components/Badge",
     "deprecated/❌ light-mode",
