@@ -5,15 +5,15 @@
     "selectedTokenSets": {
       "deprecated/❌ dark-mode": "disabled",
       "deprecated/❌ light-mode": "disabled",
-      "Core/Colors": "enabled",
-      "Core/Typography": "enabled",
       "Components/Badge": "enabled",
-      "Semantic/Light": "enabled",
-      "Semantic/Dark": "disabled",
       "Core/borderRadius": "enabled",
       "Core/padding": "enabled",
       "Core/boxShadow": "enabled",
-      "Components/Button": "enabled"
+      "Components/Button": "enabled",
+      "Core/colors": "enabled",
+      "Core/typography": "enabled",
+      "Semantic/light": "enabled",
+      "Semantic/dark": "disabled"
     },
     "$figmaStyleReferences": {
       "color.backround": "S:061ab8ae7c09229b439af5eaf1dc0eee166d13cd,",
@@ -691,7 +691,9 @@
       "button.marketing.text-color": "S:fd639c624a81f143a711cc6c40a0c772f885f724,",
       "button.marketing.icon-color": "S:4b63e098c20cb861573eb9afe846a621164fa2de,",
       "button.contrast.text-color": "S:1177a1a76b03462b9dd09c5abf75715ef953dbf2,",
-      "button.contrast.icon-color": "S:85950d979c56cc453fcb5fdea1cbd72e088bd612,"
+      "button.contrast.icon-color": "S:85950d979c56cc453fcb5fdea1cbd72e088bd612,",
+      "badge.primary.danger.default.background-color": "S:8fc85bb241b280f9a2ba1329212bb5b952824903,",
+      "badge.primary.danger.hover.background-color": "S:3316044effadd73bb63d068d65b156f2abc379b8,"
     }
   },
   {
@@ -700,15 +702,15 @@
     "selectedTokenSets": {
       "deprecated/❌ dark-mode": "disabled",
       "deprecated/❌ light-mode": "disabled",
-      "Core/Colors": "enabled",
-      "Core/Typography": "enabled",
       "Components/Badge": "enabled",
-      "Semantic/Light": "disabled",
-      "Semantic/Dark": "enabled",
       "Core/borderRadius": "enabled",
       "Core/padding": "enabled",
       "Core/boxShadow": "enabled",
-      "Components/Button": "enabled"
+      "Components/Button": "enabled",
+      "Core/colors": "enabled",
+      "Core/typography": "enabled",
+      "Semantic/light": "disabled",
+      "Semantic/dark": "enabled"
     },
     "$figmaStyleReferences": {
       "color.backround": "S:8cc355bff75dfd4b444a4439c8705a636b58917f,",
