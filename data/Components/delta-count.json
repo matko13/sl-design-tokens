@@ -1,5 +1,5 @@
 {
-  "deltaCount": {
+  "delta-count": {
     "background-color": {
       "value": "$semantic.color.surface.default",
       "type": "color"
@@ -8,11 +8,7 @@
       "value": "$semantic.color.border.neutral.default",
       "type": "color"
     },
-    "border-width": {
-      "value": "$semantic.border-width.default",
-      "type": "borderWidth"
-    },
-    "counterRemove": {
+    "counter-remove": {
       "text-color": {
         "value": "$semantic.color.text.danger",
         "type": "color"
@@ -22,7 +18,7 @@
         "type": "color"
       }
     },
-    "counterChange": {
+    "counter-change": {
       "text-color": {
         "value": "$semantic.color.text.warning",
         "type": "color"
@@ -31,6 +27,32 @@
         "value": "$semantic.color.icon.warning",
         "type": "color"
       }
+    },
+    "no-change": {
+      "text-color": {
+        "value": "$semantic.color.text.weaker",
+        "type": "color"
+      },
+      "icon-color": {
+        "value": "$semantic.color.icon.weaker",
+        "type": "color"
+      }
+    },
+    "counter-add": {
+      "text-color": {
+        "value": "$semantic.color.text.success",
+        "type": "color"
+      },
+      "icon-color": {
+        "value": "$semantic.color.icon.success",
+        "type": "color"
+      }
+    }
+  },
+  "deltaCount": {
+    "border-width": {
+      "value": "$semantic.border-width.default",
+      "type": "borderWidth"
     },
     "font": {
       "value": "{typography.n.h6}",

@@ -157,7 +157,7 @@
           "type": "color"
         },
         "border-color": {
-          "value": "$semantic.color.border.neutral.strong",
+          "value": "$semantic.color.border.neutral.default",
           "type": "color"
         },
         "text-color": {
@@ -172,6 +172,10 @@
       "pressed": {
         "background-color": {
           "value": "$semantic.color.action.secondary.pressed",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "$semantic.color.border.neutral.default",
           "type": "color"
         }
       },
