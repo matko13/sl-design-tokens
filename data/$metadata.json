@@ -9,6 +9,7 @@
     "Semantic/dark",
     "Components/Button",
     "Components/Badge",
+    "Components/deltaCount",
     "deprecated/❌ light-mode",
     "deprecated/❌ dark-mode"
   ]

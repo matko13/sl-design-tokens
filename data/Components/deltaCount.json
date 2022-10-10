@@ -1,0 +1,26 @@
+{
+  "deltaCount": {
+    "background-color": {
+      "value": "$semantic.color.surface.default",
+      "type": "color"
+    },
+    "border-color": {
+      "value": "$semantic.color.border.neutral.default",
+      "type": "color"
+    },
+    "border-width": {
+      "value": "$semantic.borderWidth.default",
+      "type": "borderWidth"
+    },
+    "counterAdd": {
+      "text-color": {
+        "value": "$semantic.color.text.success",
+        "type": "color"
+      },
+      "icon-color": {
+        "value": "$semantic.color.icon.success",
+        "type": "color"
+      }
+    }
+  }
+}
