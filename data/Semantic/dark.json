@@ -82,7 +82,7 @@
           "description": "For use as the less prominent text color, for example in the inputs placeholder."
         },
         "on-inversed": {
-          "value": "{colors.gray.50}",
+          "value": "{colors.gray.900}",
           "type": "color",
           "description": "For use as a text color on inversed colors."
         },
@@ -107,9 +107,14 @@
           "description": "Default color for info text."
         },
         "on-solid-inversed": {
-          "value": "{colors.gray.50}",
+          "value": "{colors.gray.900}",
           "type": "color",
           "description": "Text color on actions which have less prominent fill."
+        },
+        "disabled": {
+          "value": "$colors.gray.400",
+          "type": "color",
+          "description": "color used for disabled texts"
         }
       },
       "icon": {
@@ -157,6 +162,11 @@
           "value": "{colors.gray.900}",
           "type": "color",
           "description": "For icons placed on inversed surfaces."
+        },
+        "disabled": {
+          "value": "$colors.gray.400",
+          "type": "color",
+          "description": "color used for disabled states of icons, especially on actions"
         }
       },
       "surface": {
@@ -292,11 +302,11 @@
             "type": "color"
           },
           "hovered": {
-            "value": "{colors.gray.500}",
+            "value": "{colors.gray.200}",
             "type": "color"
           },
           "pressed": {
-            "value": "{colors.gray.600}",
+            "value": "{colors.gray.300}",
             "type": "color"
           }
         },
