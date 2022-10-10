@@ -5,16 +5,16 @@
     "selectedTokenSets": {
       "deprecated/❌ dark-mode": "disabled",
       "deprecated/❌ light-mode": "disabled",
-      "Components/Badge": "enabled",
-      "Core/borderRadius": "enabled",
       "Core/padding": "enabled",
-      "Core/boxShadow": "enabled",
-      "Components/Button": "enabled",
       "Core/colors": "enabled",
       "Core/typography": "enabled",
       "Semantic/light": "enabled",
       "Semantic/dark": "disabled",
-      "Components/deltaCount": "enabled"
+      "Core/border-radius": "enabled",
+      "Core/box-shadow": "enabled",
+      "Components/delta-count": "enabled",
+      "Components/badge": "enabled",
+      "Components/button": "enabled"
     },
     "$figmaStyleReferences": {
       "color.backround": "S:061ab8ae7c09229b439af5eaf1dc0eee166d13cd,",
@@ -767,7 +767,30 @@
       "colors.green.600": "S:487e89571041a24f2d6375e025105e15a66a56c1,",
       "colors.green.700": "S:6da11055fea9128d9cc9e915d67aa61c1822bc6d,",
       "colors.green.800": "S:989e9f89edb4efa4b73b5f2af9a6b4ab63f0259e,",
-      "colors.green.900": "S:cfb8c9a9409f26206e6c8ad8581ae827306160bc,"
+      "colors.green.900": "S:cfb8c9a9409f26206e6c8ad8581ae827306160bc,",
+      "deltaCount.counterAdd.text-color": "S:1658d088659dc97696ee7c3b9973f558f8be568a,",
+      "deltaCount.counterAdd.icon-color": "S:2a0f5c520ff6dddb3a7ec202f3738e75953ca827,",
+      "deltaCount.counterChange.text-color": "S:e4bb26e05511fa095e41f29c1fda51c920558b79,",
+      "deltaCount.counterChange.icon-color": "S:d99bc6f8b53ca84d884fbf4f94332c3de4f9862e,",
+      "deltaCount.counterRemove.text-color": "S:31c59cbb9dcbbcd345245207ef3a1f0e460c7c2b,",
+      "deltaCount.counterRemove.icon-color": "S:326b593fab1cfd0b1bc5dd2953bd5a5a8f85a938,",
+      "deltaCount.font": "S:a0d6e7146da0881fba71b273935729cafb3ea7ae,",
+      "typography.n.h1": "S:304c89dc575effbea05530b8379ba64e02146e41,",
+      "typography.n.h2": "S:60cb03f66a62b49cc71b8803ae6747ccb83fb22a,",
+      "typography.n.h3": "S:23f52221ad644db79349308715659d4b4d4ed78a,",
+      "typography.n.h4": "S:0da66cc314ff4b6edf938fa6aa1db4fdffb3fe0b,",
+      "typography.n.h5": "S:96f8defded0c4aff204f8a243d098e3213113182,",
+      "typography.n.h6": "S:d6f685380aeafa39fdb9c46f0e34b1ea7ced456d,",
+      "typography.n.h6Uppercase": "S:45e0ca00f7dea5ebd9efd9a78ebf5ee5521f7289,",
+      "typography.n.h7": "S:f984b8239105a78c6bb2c5056e9f7f4898c29c40,",
+      "typography.n.body": "S:ad86baa9f9d89e83d54aa338f0a9bf7665435934,",
+      "typography.n.bodySmall": "S:c4a9ebbf4b769fe8634be5dae4c7351261802cdd,",
+      "typography.n.bodyExtraSmall": "S:a3dbea8996ae7d6dbc003f59789a8d0c8fc47145,",
+      "typography.n.bodySmallUppercase": "S:736484b26abfba535c11ddc1db43ce0855d05de8,",
+      "typography.i.h5": "S:366e9a93323aeff2b14a369544960eaeb655f680,",
+      "typography.i.h6": "S:006cab573e5c117aa16fdf6873062707ff3a41b1,",
+      "typography.i.body": "S:6042ed9edc07ee77b0414e8b892fd9a8af8109a1,",
+      "typography.i.bodySmall": "S:edaf484642eb3ad7a2900c07e154ad8ee0a78a91,"
     }
   },
   {
@@ -776,16 +799,16 @@
     "selectedTokenSets": {
       "deprecated/❌ dark-mode": "disabled",
       "deprecated/❌ light-mode": "disabled",
-      "Components/Badge": "enabled",
-      "Core/borderRadius": "enabled",
       "Core/padding": "enabled",
-      "Core/boxShadow": "enabled",
-      "Components/Button": "enabled",
       "Core/colors": "enabled",
       "Core/typography": "enabled",
       "Semantic/light": "disabled",
       "Semantic/dark": "enabled",
-      "Components/deltaCount": "enabled"
+      "Core/border-radius": "enabled",
+      "Core/box-shadow": "enabled",
+      "Components/delta-count": "enabled",
+      "Components/badge": "enabled",
+      "Components/button": "enabled"
     },
     "$figmaStyleReferences": {
       "color.backround": "S:8cc355bff75dfd4b444a4439c8705a636b58917f,",

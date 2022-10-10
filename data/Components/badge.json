@@ -2,11 +2,11 @@
   "badge": {
     "primary": {
       "text-color": {
-        "value": "$semantic.color.text.onSolid",
+        "value": "{semantic.color.text.on-solid}",
         "type": "color"
       },
       "icon-color": {
-        "value": "$semantic.color.icon.onSolid",
+        "value": "{semantic.color.icon.on-solid}",
         "type": "color"
       },
       "success": {
@@ -82,11 +82,11 @@
     },
     "secondary": {
       "text-color": {
-        "value": "$semantic.color.text.onSolidInversed",
+        "value": "{semantic.color.text.on-solid-inversed}",
         "type": "color"
       },
       "icon-color": {
-        "value": "$semantic.color.icon.onSolidInversed",
+        "value": "{semantic.color.icon.on-solid-inversed}",
         "type": "color"
       },
       "success": {
@@ -162,18 +162,18 @@
     },
     "pill-shaped": {
       "border-radius": {
-        "value": "$borderRadius.16",
+        "value": "{border-radius.16}",
         "type": "borderRadius"
       }
     },
     "rectangle-shaped": {
       "border-radius": {
-        "value": "$borderRadius.6",
+        "value": "{border-radius.6}",
         "type": "borderRadius"
       }
     },
     "font-family": {
-      "value": "{nunitoSans}",
+      "value": "{nunito-sans}",
       "type": "fontFamilies"
     },
     "font-weight": {
@@ -181,15 +181,15 @@
       "type": "fontWeights"
     },
     "font-size": {
-      "value": "$fontSize.200",
+      "value": "{font-size.200}",
       "type": "fontSizes"
     },
     "line-height": {
-      "value": "$lineHeight.100",
+      "value": "{line-height.100}",
       "type": "lineHeights"
     },
     "text-case": {
-      "value": "$textCase.none",
+      "value": "{text-case.none}",
       "type": "textCase"
     },
     "font": {
@@ -205,11 +205,11 @@
       "type": "typography"
     },
     "text-decoration": {
-      "value": "$textDecoration.none",
+      "value": "{text-decoration.none}",
       "type": "textDecoration"
     },
     "letter-spacing": {
-      "value": "$letterSpacing.none",
+      "value": "{letter-spacing.none}",
       "type": "letterSpacing"
     }
   }

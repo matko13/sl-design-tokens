@@ -20,21 +20,21 @@
         }
       },
       "text-color": {
-        "value": "$semantic.color.text.onSolid",
+        "value": "{semantic.color.text.on-solid}",
         "type": "color"
       },
       "icon-color": {
-        "value": "$semantic.color.icon.onSolid",
+        "value": "{semantic.color.icon.on-solid}",
         "type": "color"
       }
     },
     "large": {
       "border-radius": {
-        "value": "{borderRadius.8}",
+        "value": "{border-radius.8}",
         "type": "borderRadius"
       },
       "font-size": {
-        "value": "$fontSize.300",
+        "value": "{font-size.300}",
         "type": "fontSizes"
       },
       "font": {
@@ -52,11 +52,11 @@
     },
     "medium": {
       "border-radius": {
-        "value": "{borderRadius.6}",
+        "value": "{border-radius.6}",
         "type": "borderRadius"
       },
       "font-size": {
-        "value": "$fontSize.200",
+        "value": "{font-size.200}",
         "type": "fontSizes"
       },
       "font": {
@@ -74,11 +74,11 @@
     },
     "small": {
       "border-radius": {
-        "value": "{borderRadius.6}",
+        "value": "{border-radius.6}",
         "type": "borderRadius"
       },
       "font-size": {
-        "value": "$fontSize.200",
+        "value": "{font-size.200}",
         "type": "fontSizes"
       },
       "font": {
@@ -95,27 +95,27 @@
       }
     },
     "font-family": {
-      "value": "$nunitoSans",
+      "value": "{nunito-sans}",
       "type": "fontFamilies"
     },
     "font-weight": {
-      "value": "{fontWeight.semiBold}",
+      "value": "{fontWeight.semi-bold}",
       "type": "fontWeights"
     },
     "line-height": {
-      "value": "$lineHeight.100",
+      "value": "{line-height.100}",
       "type": "lineHeights"
     },
     "letter-spacing": {
-      "value": "$letterSpacing.none",
+      "value": "{letter-spacing.none}",
       "type": "letterSpacing"
     },
     "text-case": {
-      "value": "{textCase.none}",
+      "value": "{text-case.none}",
       "type": "textCase"
     },
     "text-decoration": {
-      "value": "$textDecoration.none",
+      "value": "{text-decoration.none}",
       "type": "textDecoration"
     },
     "disabled": {
@@ -176,11 +176,11 @@
         }
       },
       "text-color": {
-        "value": "$semantic.color.text.onSolid",
+        "value": "{semantic.color.text.on-solid}",
         "type": "color"
       },
       "icon-color": {
-        "value": "$semantic.color.icon.onSolid",
+        "value": "{semantic.color.icon.on-solid}",
         "type": "color"
       }
     },
@@ -204,11 +204,11 @@
         }
       },
       "text-color": {
-        "value": "$semantic.color.text.onInversed",
+        "value": "{semantic.color.text.on-inversed}",
         "type": "color"
       },
       "icon-color": {
-        "value": "$semantic.color.icon.onInversed",
+        "value": "{semantic.color.icon.on-inversed}",
         "type": "color"
       }
     },
@@ -232,11 +232,11 @@
         }
       },
       "text-color": {
-        "value": "$semantic.color.text.onSolid",
+        "value": "{semantic.color.text.on-solid}",
         "type": "color"
       },
       "icon-color": {
-        "value": "$semantic.color.icon.onSolid",
+        "value": "{semantic.color.icon.on-solid}",
         "type": "color"
       }
     },

@@ -66,7 +66,7 @@
           "type": "color",
           "description": "For use as a text color."
         },
-        "onSolid": {
+        "on-solid": {
           "value": "{colors.gray.50}",
           "type": "color",
           "description": "For use as a text color on components which have prominent fill to keep high contrast."
@@ -81,7 +81,7 @@
           "type": "color",
           "description": "For use as the less prominent text color, for example in the inputs placeholder."
         },
-        "onInversed": {
+        "on-inversed": {
           "value": "{colors.gray.50}",
           "type": "color",
           "description": "For use as a text color on inversed colors."
@@ -106,7 +106,7 @@
           "type": "color",
           "description": "Default color for info text."
         },
-        "onSolidInversed": {
+        "on-solid-inversed": {
           "value": "{colors.gray.50}",
           "type": "color",
           "description": "Text color on actions which have less prominent fill."
@@ -124,17 +124,17 @@
           "description": "Subdued color for icons.\n"
         },
         "danger": {
-          "value": "{colors.red.500}",
+          "value": "{colors.red.300}",
           "type": "color",
           "description": "Color for danger icons"
         },
         "warning": {
-          "value": "{colors.yellow.500}",
+          "value": "{colors.yellow.300}",
           "type": "color",
           "description": "Default color for warning icons."
         },
         "success": {
-          "value": "{colors.green.500}",
+          "value": "{colors.green.300}",
           "type": "color",
           "description": "Default color for success icons."
         },
@@ -143,17 +143,17 @@
           "type": "color",
           "description": "Default color for info icons."
         },
-        "onSolid": {
+        "on-solid": {
           "value": "{colors.gray.50}",
           "type": "color",
           "description": "For use as a fill color for icons on prominent actions and interactive components."
         },
-        "onSolidInversed": {
+        "on-solid-inversed": {
           "value": "{colors.gray.50}",
           "type": "color",
           "description": "For icons placed on less prominent actions."
         },
-        "onInversed": {
+        "on-inversed": {
           "value": "{colors.gray.900}",
           "type": "color",
           "description": "For icons placed on inversed surfaces."
@@ -481,8 +481,8 @@
         }
       }
     },
-    "divider": {
-      "border-width": {
+    "border-width": {
+      "default": {
         "value": "1",
         "type": "borderWidth"
       }

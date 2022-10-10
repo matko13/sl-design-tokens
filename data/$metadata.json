@@ -2,14 +2,14 @@
   "tokenSetOrder": [
     "Core/colors",
     "Core/typography",
-    "Core/borderRadius",
+    "Core/border-radius",
     "Core/padding",
-    "Core/boxShadow",
+    "Core/box-shadow",
     "Semantic/light",
     "Semantic/dark",
-    "Components/Button",
-    "Components/Badge",
-    "Components/deltaCount",
+    "Components/button",
+    "Components/badge",
+    "Components/delta-count",
     "deprecated/❌ light-mode",
     "deprecated/❌ dark-mode"
   ]
