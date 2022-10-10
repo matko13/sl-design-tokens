@@ -8,7 +8,7 @@
       "value": "$semantic.color.border.neutral.default",
       "type": "color"
     },
-    "counter-remove": {
+    "removed": {
       "text-color": {
         "value": "$semantic.color.text.danger",
         "type": "color"
@@ -18,7 +18,7 @@
         "type": "color"
       }
     },
-    "counter-change": {
+    "changed": {
       "text-color": {
         "value": "$semantic.color.text.warning",
         "type": "color"
@@ -28,7 +28,7 @@
         "type": "color"
       }
     },
-    "no-change": {
+    "unchanged": {
       "text-color": {
         "value": "$semantic.color.text.weaker",
         "type": "color"
