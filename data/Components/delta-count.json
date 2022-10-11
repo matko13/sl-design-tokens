@@ -8,6 +8,10 @@
       "value": "$semantic.color.border.neutral.default",
       "type": "color"
     },
+    "border-width": {
+      "value": "$semantic.border-width.default",
+      "type": "borderWidth"
+    },
     "removed": {
       "text-color": {
         "value": "$semantic.color.text.danger",
@@ -28,17 +32,21 @@
         "type": "color"
       }
     },
+    "font": {
+      "value": "{typography.n.h6}",
+      "type": "typography"
+    },
     "unchanged": {
       "text-color": {
-        "value": "$semantic.color.text.weaker",
+        "value": "$semantic.color.text.weak",
         "type": "color"
       },
       "icon-color": {
-        "value": "$semantic.color.icon.weaker",
+        "value": "$semantic.color.icon.weak",
         "type": "color"
       }
     },
-    "counter-add": {
+    "added": {
       "text-color": {
         "value": "$semantic.color.text.success",
         "type": "color"
@@ -47,16 +55,6 @@
         "value": "$semantic.color.icon.success",
         "type": "color"
       }
-    }
-  },
-  "deltaCount": {
-    "border-width": {
-      "value": "$semantic.border-width.default",
-      "type": "borderWidth"
-    },
-    "font": {
-      "value": "{typography.n.h6}",
-      "type": "typography"
     }
   }
 }

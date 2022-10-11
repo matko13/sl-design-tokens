@@ -455,6 +455,10 @@
       "default": {
         "value": "1",
         "type": "borderWidth"
+      },
+      "large": {
+        "value": "2",
+        "type": "borderWidth"
       }
     }
   }

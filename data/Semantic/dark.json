@@ -72,12 +72,12 @@
           "description": "For use as a text color on components which have prominent fill to keep high contrast."
         },
         "weak": {
-          "value": "{colors.gray.400}",
+          "value": "{colors.gray.500}",
           "type": "color",
           "description": "For use as a weaker text color."
         },
         "weaker": {
-          "value": "{colors.gray.500}",
+          "value": "{colors.gray.400}",
           "type": "color",
           "description": "For use as the less prominent text color, for example in the inputs placeholder."
         },
@@ -112,7 +112,7 @@
           "description": "Text color on actions which have less prominent fill."
         },
         "disabled": {
-          "value": "$colors.gray.400",
+          "value": "$colors.gray.500",
           "type": "color",
           "description": "color used for disabled texts"
         }
@@ -124,12 +124,12 @@
           "description": "Default color for icons."
         },
         "weak": {
-          "value": "{colors.gray.400}",
+          "value": "{colors.gray.500}",
           "type": "color",
           "description": "Subdued color for icons.\n"
         },
         "weaker": {
-          "value": "{colors.gray.500}",
+          "value": "{colors.gray.400}",
           "type": "color",
           "description": "Subdued color for icons.\n"
         },
@@ -169,7 +169,7 @@
           "description": "For icons placed on inversed surfaces."
         },
         "disabled": {
-          "value": "$colors.gray.400",
+          "value": "$colors.gray.500",
           "type": "color",
           "description": "color used for disabled states of icons, especially on actions"
         }
@@ -238,7 +238,7 @@
           }
         },
         "disabled": {
-          "value": "{colors.gray.600}",
+          "value": "{colors.gray.800}",
           "type": "color",
           "description": "For use as the background color for actions."
         },
@@ -499,6 +499,10 @@
     "border-width": {
       "default": {
         "value": "1",
+        "type": "borderWidth"
+      },
+      "large": {
+        "value": "2",
         "type": "borderWidth"
       }
     }
