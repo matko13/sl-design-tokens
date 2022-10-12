@@ -1,9 +1,36 @@
 /**
  * Do not edit directly
- * Generated on Wed, 12 Oct 2022 15:17:47 GMT
+ * Generated on Wed, 12 Oct 2022 16:45:55 GMT
  */
 
 :root {
+  --toggles-radio-border-radius: $border-radius.16;
+  --toggles-selected-pressed-border-color: $semantic.color.border.active;
+  --toggles-selected-pressed-icon-color: $semantic.color.icon.on-solid;
+  --toggles-selected-pressed-background-color: $semantic.color.interacitve.pressed;
+  --toggles-selected-hover-border-color: $semantic.color.border.active;
+  --toggles-selected-hover-icon-color: $semantic.color.icon.on-solid;
+  --toggles-selected-hover-background-color: $semantic.color.interacitve.hover;
+  --toggles-selected-disabled-border-color: $semantic.color.border.neutral.default;
+  --toggles-selected-disabled-icon-color: $semantic.color.icon.disabled;
+  --toggles-selected-disabled-background-color: $semantic.color.interacitve.disabled;
+  --toggles-selected-default-icon-color: $semantic.color.icon.on-solid;
+  --toggles-selected-default-background-color: $semantic.color.interacitve.active;
+  --toggles-checkbox-small-focus-border-radius: $border-radius.6;
+  --toggles-checkbox-small-border-radius: $border-radius.4;
+  --toggles-checkbox-large-focus-border-radius: $border-radius.8;
+  --toggles-checkbox-large-border-radius: $border-radius.6;
+  --toggles-unselected-pressed-border-color: $semantic.color.border.active;
+  --toggles-unselected-pressed-icon-color: $semantic.color.icon.default;
+  --toggles-unselected-pressed-background-color: $semantic.color.interacitve.default;
+  --toggles-unselected-hover-border-color: $semantic.color.border.active;
+  --toggles-unselected-hover-icon-color: $semantic.color.icon.default;
+  --toggles-unselected-hover-background-color: $semantic.color.interacitve.default;
+  --toggles-unselected-disabled-border-color: $semantic.color.border.neutral.default;
+  --toggles-unselected-disabled-icon-color: $semantic.color.icon.disabled;
+  --toggles-unselected-disabled-background-color: $semantic.color.interacitve.disabled;
+  --toggles-unselected-default-border-color: $semantic.color.border.neutral.default;
+  --toggles-unselected-default-icon-color: $semantic.color.icon.default;
+  --toggles-unselected-default-background-color: $semantic.color.interacitve.default;
   --toggles-default-border-width: $border-width.1;
-  --toggles-focus-border-width: $border-width.2;
 }

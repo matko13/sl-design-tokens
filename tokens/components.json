@@ -1,16 +1,181 @@
 {
   "toggles": {
-    "focus": {
-      "border-width": {
-        "value": "$border-width.2",
-        "type": "borderWidth",
-        "failedToResolve": true
-      }
-    },
     "default": {
       "border-width": {
         "value": "$border-width.1",
         "type": "borderWidth",
+        "failedToResolve": true
+      }
+    },
+    "unselected": {
+      "default": {
+        "background-color": {
+          "value": "$semantic.color.interacitve.default",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "icon-color": {
+          "value": "$semantic.color.icon.default",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "border-color": {
+          "value": "$semantic.color.border.neutral.default",
+          "type": "color",
+          "failedToResolve": true
+        }
+      },
+      "disabled": {
+        "background-color": {
+          "value": "$semantic.color.interacitve.disabled",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "icon-color": {
+          "value": "$semantic.color.icon.disabled",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "border-color": {
+          "value": "$semantic.color.border.neutral.default",
+          "type": "color",
+          "failedToResolve": true
+        }
+      },
+      "hover": {
+        "background-color": {
+          "value": "$semantic.color.interacitve.default",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "icon-color": {
+          "value": "$semantic.color.icon.default",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "border-color": {
+          "value": "$semantic.color.border.active",
+          "type": "color",
+          "failedToResolve": true
+        }
+      },
+      "pressed": {
+        "background-color": {
+          "value": "$semantic.color.interacitve.default",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "icon-color": {
+          "value": "$semantic.color.icon.default",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "border-color": {
+          "value": "$semantic.color.border.active",
+          "type": "color",
+          "failedToResolve": true
+        }
+      }
+    },
+    "checkbox": {
+      "large": {
+        "border-radius": {
+          "value": "$border-radius.6",
+          "type": "borderRadius",
+          "failedToResolve": true
+        },
+        "focus": {
+          "border-radius": {
+            "value": "$border-radius.8",
+            "type": "borderRadius",
+            "failedToResolve": true
+          }
+        }
+      },
+      "small": {
+        "border-radius": {
+          "value": "$border-radius.4",
+          "type": "borderRadius",
+          "failedToResolve": true
+        },
+        "focus": {
+          "border-radius": {
+            "value": "$border-radius.6",
+            "type": "borderRadius",
+            "failedToResolve": true
+          }
+        }
+      }
+    },
+    "selected": {
+      "default": {
+        "background-color": {
+          "value": "$semantic.color.interacitve.active",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "icon-color": {
+          "value": "$semantic.color.icon.on-solid",
+          "type": "color",
+          "failedToResolve": true
+        }
+      },
+      "disabled": {
+        "background-color": {
+          "value": "$semantic.color.interacitve.disabled",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "icon-color": {
+          "value": "$semantic.color.icon.disabled",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "border-color": {
+          "value": "$semantic.color.border.neutral.default",
+          "type": "color",
+          "failedToResolve": true
+        }
+      },
+      "hover": {
+        "background-color": {
+          "value": "$semantic.color.interacitve.hover",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "icon-color": {
+          "value": "$semantic.color.icon.on-solid",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "border-color": {
+          "value": "$semantic.color.border.active",
+          "type": "color",
+          "failedToResolve": true
+        }
+      },
+      "pressed": {
+        "background-color": {
+          "value": "$semantic.color.interacitve.pressed",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "icon-color": {
+          "value": "$semantic.color.icon.on-solid",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "border-color": {
+          "value": "$semantic.color.border.active",
+          "type": "color",
+          "failedToResolve": true
+        }
+      }
+    },
+    "radio": {
+      "border-radius": {
+        "value": "$border-radius.16",
+        "type": "borderRadius",
         "failedToResolve": true
       }
     }
