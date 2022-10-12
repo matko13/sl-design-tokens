@@ -1,0 +1,13 @@
+{
+  "name": "sl-design-tokens",
+  "version": "1.0.0",
+  "main": "build.js",
+  "repository": "git@github.com:matko13/sl-design-tokens.git",
+  "author": "Adam Krol <ottopilotto@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "style-dictionary": "^3.7.1",
+    "tinycolor2": "^1.4.2",
+    "token-transformer": "^0.0.27"
+  }
+}
