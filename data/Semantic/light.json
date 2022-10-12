@@ -332,10 +332,15 @@
             "type": "color"
           }
         },
-        "focused": {
+        "active": {
           "value": "{colors.blue.500}",
           "type": "color",
-          "description": "Color used for borders in focus in inputs."
+          "description": "Color used for borders in active state."
+        },
+        "focus": {
+          "value": "{colors.blue.50}",
+          "type": "color",
+          "description": "Color used for focus state components."
         }
       },
       "status": {

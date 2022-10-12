@@ -1,0 +1,16 @@
+{
+  "toggles": {
+    "focus": {
+      "border-width": {
+        "value": "$border-width.2",
+        "type": "borderWidth"
+      }
+    },
+    "default": {
+      "border-width": {
+        "value": "$border-width.1",
+        "type": "borderWidth"
+      }
+    }
+  }
+}

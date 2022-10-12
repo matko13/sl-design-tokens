@@ -12,6 +12,7 @@
     "Components/button",
     "Components/badge",
     "Components/delta-count",
+    "Components/toggles",
     "deprecated/❌ light-mode",
     "deprecated/❌ dark-mode"
   ]
