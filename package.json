@@ -11,6 +11,6 @@
     "token-transformer": "^0.0.27"
   },
   "scripts": {
-    "build": "npx style-dictionary build --config config.json"
+    "build": "npx style-dictionary build --config config.js"
   }
 }
