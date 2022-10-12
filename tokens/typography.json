@@ -1,0 +1,598 @@
+{
+  "font-size": {
+    "100": {
+      "value": 11,
+      "type": "fontSizes"
+    },
+    "200": {
+      "value": 13,
+      "type": "fontSizes",
+      "description": "0.833rem"
+    },
+    "300": {
+      "value": 15,
+      "type": "fontSizes",
+      "description": "1rem"
+    },
+    "400": {
+      "value": 18,
+      "type": "fontSizes",
+      "description": "1.2rem"
+    },
+    "500": {
+      "value": 22,
+      "type": "fontSizes",
+      "description": "1.44rem"
+    },
+    "600": {
+      "value": 26,
+      "type": "fontSizes",
+      "description": "1.728rem"
+    },
+    "700": {
+      "value": 31,
+      "type": "fontSizes",
+      "description": "2.074rem"
+    },
+    "base": {
+      "value": 15,
+      "type": "fontSizes"
+    },
+    "scale": {
+      "value": 1.2,
+      "type": "fontSizes"
+    }
+  },
+  "line-height": {
+    "100": {
+      "value": "100%",
+      "type": "lineHeights"
+    },
+    "125": {
+      "value": "125%",
+      "type": "lineHeights"
+    },
+    "150": {
+      "value": "150%",
+      "type": "lineHeights"
+    }
+  },
+  "typography": {
+    "n": {
+      "h1": {
+        "fontFamily": {
+          "value": "Nunito Sans",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": 700,
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "150%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 31,
+          "type": "fontSize"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing"
+        }
+      },
+      "h2": {
+        "fontFamily": {
+          "value": "Nunito Sans",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": 700,
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "150%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 26,
+          "type": "fontSize"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing"
+        }
+      },
+      "h3": {
+        "fontFamily": {
+          "value": "Nunito Sans",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": 700,
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "150%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 22,
+          "type": "fontSize"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing"
+        }
+      },
+      "h4": {
+        "fontFamily": {
+          "value": "Nunito Sans",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": 700,
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "150%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 18,
+          "type": "fontSize"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing"
+        }
+      },
+      "h5": {
+        "fontFamily": {
+          "value": "Nunito Sans",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": 700,
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "125%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 15,
+          "type": "fontSize"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing"
+        }
+      },
+      "h6": {
+        "fontFamily": {
+          "value": "Nunito Sans",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": 700,
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "125%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 13,
+          "type": "fontSize"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing"
+        }
+      },
+      "h6-uppercase": {
+        "fontFamily": {
+          "value": "Nunito Sans",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": 700,
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "125%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 13,
+          "type": "fontSize"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing"
+        }
+      },
+      "h7": {
+        "fontFamily": {
+          "value": "Nunito Sans",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": 700,
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "125%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 11,
+          "type": "fontSize"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing"
+        }
+      },
+      "body": {
+        "fontFamily": {
+          "value": "Nunito Sans",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": 500,
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "125%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 15,
+          "type": "fontSize"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing"
+        }
+      },
+      "body-small": {
+        "fontFamily": {
+          "value": "Nunito Sans",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": 500,
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "125%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 13,
+          "type": "fontSize"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing"
+        }
+      },
+      "body-extra-small": {
+        "fontFamily": {
+          "value": "Nunito Sans",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": 500,
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "125%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 11,
+          "type": "fontSize"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing"
+        }
+      },
+      "body-small-uppercase": {
+        "fontFamily": {
+          "value": "Nunito Sans",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": 500,
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "100%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 13,
+          "type": "fontSize"
+        },
+        "textCase": {
+          "value": "uppercase",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing"
+        }
+      }
+    },
+    "i": {
+      "h5": {
+        "fontFamily": {
+          "value": "Inconsolata",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": 700,
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "125%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 15,
+          "type": "fontSize"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing"
+        }
+      },
+      "h6": {
+        "fontFamily": {
+          "value": "Inconsolata",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": 700,
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "125%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 13,
+          "type": "fontSize"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing"
+        }
+      },
+      "body": {
+        "fontFamily": {
+          "value": "Inconsolata",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": 500,
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "125%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 15,
+          "type": "fontSize"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing"
+        }
+      },
+      "body-small": {
+        "fontFamily": {
+          "value": "Inconsolata",
+          "type": "fontFamily"
+        },
+        "fontWeight": {
+          "value": 500,
+          "type": "fontWeight"
+        },
+        "lineHeight": {
+          "value": "125%",
+          "type": "lineHeight"
+        },
+        "fontSize": {
+          "value": 13,
+          "type": "fontSize"
+        },
+        "textCase": {
+          "value": "none",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "none",
+          "type": "textDecoration"
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "letterSpacing"
+        }
+      }
+    }
+  },
+  "text-case": {
+    "none": {
+      "value": "none",
+      "type": "textCase"
+    },
+    "uppercase": {
+      "value": "uppercase",
+      "type": "textCase"
+    }
+  },
+  "nunito-sans": {
+    "value": "Nunito Sans",
+    "type": "fontFamilies"
+  },
+  "inconsolata": {
+    "value": "Inconsolata",
+    "type": "fontFamilies"
+  },
+  "fontWeight": {
+    "regular": {
+      "value": 500,
+      "type": "fontWeights"
+    },
+    "semi-bold": {
+      "value": 600,
+      "type": "fontWeights"
+    },
+    "Bold": {
+      "value": 700,
+      "type": "fontWeights"
+    }
+  },
+  "text-decoration": {
+    "none": {
+      "value": "none",
+      "type": "textDecoration"
+    },
+    "underline": {
+      "value": "underline",
+      "type": "textDecoration"
+    },
+    "line-through": {
+      "value": "line-through",
+      "type": "textDecoration"
+    }
+  },
+  "letter-spacing": {
+    "none": {
+      "value": 0,
+      "type": "letterSpacing"
+    }
+  }
+}

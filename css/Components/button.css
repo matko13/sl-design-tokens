@@ -1,0 +1,75 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 12 Oct 2022 10:40:36 GMT
+ */
+
+:root {
+  --button-marketing-icon-color: $semantic.color.icon.default;
+  --button-marketing-text-color: $semantic.color.text.default;
+  --button-marketing-pressed-background-color: $semantic.color.action.marketing.pressed;
+  --button-marketing-hover-background-color: $semantic.color.action.marketing.hover;
+  --button-marketing-default-background-color: $semantic.color.action.marketing.default;
+  --button-danger-pressed-background-color: $semantic.color.action.danger.pressed;
+  --button-danger-hover-background-color: $semantic.color.action.danger.hovered;
+  --button-danger-default-background-color: $semantic.color.action.danger.default;
+  --button-contrast-pressed-background-color: $semantic.color.action.contrast.pressed;
+  --button-contrast-hover-background-color: $semantic.color.action.contrast.hovered;
+  --button-contrast-default-background-color: $semantic.color.action.contrast.default;
+  --button-secondary-pressed-border-color: $semantic.color.border.neutral.default;
+  --button-secondary-pressed-background-color: $semantic.color.action.secondary.pressed;
+  --button-secondary-hover-icon-color: $semantic.color.icon.default;
+  --button-secondary-hover-text-color: $semantic.color.text.default;
+  --button-secondary-hover-border-color: $semantic.color.border.neutral.default;
+  --button-secondary-hover-background-color: $semantic.color.action.secondary.hovered;
+  --button-secondary-default-text-color: $semantic.color.text.default;
+  --button-secondary-default-icon-color: $semantic.color.icon.default;
+  --button-secondary-default-border-color: $semantic.color.border.neutral.default;
+  --button-secondary-default-background-color: $semantic.color.action.secondary.default;
+  --button-disabled-icon-color: $semantic.color.icon.disabled;
+  --button-disabled-text-color: $semantic.color.text.disabled;
+  --button-disabled-background-color: $semantic.color.action.disabled;
+  --button-primary-pressed-background-color: $semantic.color.action.primary.pressed;
+  --button-primary-hover-background-color: $semantic.color.action.primary.hovered;
+  --button-text-decoration: var(--text-decoration-none);
+  --button-text-case: var(--text-case-none);
+  --button-letter-spacing: 0;
+  --button-line-height: var(--line-height-100);
+  --button-font-weight: 600;
+  --button-font-family: var(--nunito-sans);
+  --button-small-font-text-case: var(--text-case-none);
+  --button-small-font-text-decoration: var(--text-decoration-none);
+  --button-small-font-letter-spacing: 0;
+  --button-small-font-font-size: 13;
+  --button-small-font-line-height: var(--line-height-100);
+  --button-small-font-font-weight: 600;
+  --button-small-font-font-family: var(--nunito-sans);
+  --button-small-font-size: 13;
+  --button-small-border-radius: 6;
+  --button-medium-font-text-case: var(--text-case-none);
+  --button-medium-font-text-decoration: var(--text-decoration-none);
+  --button-medium-font-letter-spacing: 0;
+  --button-medium-font-font-size: 13;
+  --button-medium-font-line-height: var(--line-height-100);
+  --button-medium-font-font-weight: 600;
+  --button-medium-font-font-family: var(--nunito-sans);
+  --button-medium-font-size: 13;
+  --button-medium-border-radius: 6;
+  --button-large-font-text-case: var(--text-case-none);
+  --button-large-font-text-decoration: var(--text-decoration-none);
+  --button-large-font-letter-spacing: 0;
+  --button-large-font-font-size: 15;
+  --button-large-font-line-height: var(--line-height-100);
+  --button-large-font-font-weight: 600;
+  --button-large-font-font-family: var(--nunito-sans);
+  --button-large-font-size: 15;
+  --button-large-border-radius: 8;
+  --button-danger-icon-color: var(--semantic-color-icon-on-solid);
+  --button-danger-text-color: var(--semantic-color-text-on-solid);
+  --button-contrast-icon-color: var(--semantic-color-icon-on-inversed);
+  --button-contrast-text-color: var(--semantic-color-text-on-inversed);
+  --button-secondary-icon-color: var(--semantic-color-icon-on-solid);
+  --button-secondary-text-color: var(--semantic-color-text-on-solid);
+  --button-primary-icon-color: var(--semantic-color-icon-on-solid);
+  --button-primary-text-color: var(--semantic-color-text-on-solid);
+  --button-primary-default-background-color: var(--semantic-color-action-primary-default);
+}
