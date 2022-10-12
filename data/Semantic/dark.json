@@ -18,21 +18,26 @@
       },
       "interacitve": {
         "default": {
-          "value": "{colors.blue.300}",
+          "value": "{colors.gray.800}",
+          "type": "color",
+          "description": "Used for plain buttons, and as the fill color for selected checkboxes, radio buttons."
+        },
+        "active": {
+          "value": "{colors.blue.400}",
           "type": "color",
           "description": "Used for plain buttons, and as the fill color for selected checkboxes, radio buttons."
         },
         "disabled": {
-          "value": "{colors.gray.600}",
+          "value": "{colors.gray.700}",
           "type": "color",
           "description": "Used for disabled plain buttons, radio buttons, checkboxes."
         },
-        "weak": {
-          "value": "{colors.blue.200}",
+        "hover": {
+          "value": "{colors.blue.300}",
           "type": "color",
           "description": "Used for hovered plain buttons, radio buttons, checkboxes."
         },
-        "strong": {
+        "pressed": {
           "value": "{colors.blue.400}",
           "type": "color",
           "description": "Used for pressed plain buttons, radio buttons, checkboxes."
@@ -124,12 +129,12 @@
           "description": "Default color for icons."
         },
         "weak": {
-          "value": "{colors.gray.500}",
+          "value": "{colors.gray.400}",
           "type": "color",
           "description": "Subdued color for icons.\n"
         },
         "weaker": {
-          "value": "{colors.gray.400}",
+          "value": "{colors.gray.200}",
           "type": "color",
           "description": "Subdued color for icons.\n"
         },
@@ -238,7 +243,7 @@
           }
         },
         "disabled": {
-          "value": "{colors.gray.800}",
+          "value": "{colors.gray.700}",
           "type": "color",
           "description": "For use as the background color for actions."
         },
@@ -377,7 +382,7 @@
             "type": "color"
           }
         },
-        "focused": {
+        "active": {
           "value": "{colors.blue.400}",
           "type": "color",
           "description": "Color used for borders in focus in inputs."

@@ -1,15 +1,153 @@
 {
   "toggles": {
-    "focus": {
-      "border-width": {
-        "value": "$border-width.2",
-        "type": "borderWidth"
-      }
-    },
     "default": {
       "border-width": {
         "value": "$border-width.1",
         "type": "borderWidth"
+      }
+    },
+    "unselected": {
+      "default": {
+        "background-color": {
+          "value": "$semantic.color.interacitve.default",
+          "type": "color"
+        },
+        "icon-color": {
+          "value": "$semantic.color.icon.default",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "$semantic.color.border.neutral.default",
+          "type": "color"
+        }
+      },
+      "disabled": {
+        "background-color": {
+          "value": "$semantic.color.interacitve.disabled",
+          "type": "color"
+        },
+        "icon-color": {
+          "value": "$semantic.color.icon.disabled",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "$semantic.color.border.neutral.default",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "background-color": {
+          "value": "$semantic.color.interacitve.default",
+          "type": "color"
+        },
+        "icon-color": {
+          "value": "$semantic.color.icon.default",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "$semantic.color.border.active",
+          "type": "color"
+        }
+      },
+      "pressed": {
+        "background-color": {
+          "value": "$semantic.color.interacitve.default",
+          "type": "color"
+        },
+        "icon-color": {
+          "value": "$semantic.color.icon.default",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "$semantic.color.border.active",
+          "type": "color"
+        }
+      }
+    },
+    "checkbox": {
+      "large": {
+        "border-radius": {
+          "value": "$border-radius.6",
+          "type": "borderRadius"
+        },
+        "focus": {
+          "border-radius": {
+            "value": "$border-radius.8",
+            "type": "borderRadius"
+          }
+        }
+      },
+      "small": {
+        "border-radius": {
+          "value": "$border-radius.4",
+          "type": "borderRadius"
+        },
+        "focus": {
+          "border-radius": {
+            "value": "$border-radius.6",
+            "type": "borderRadius"
+          }
+        }
+      }
+    },
+    "selected": {
+      "default": {
+        "background-color": {
+          "value": "$semantic.color.interacitve.active",
+          "type": "color"
+        },
+        "icon-color": {
+          "value": "$semantic.color.icon.on-solid",
+          "type": "color"
+        }
+      },
+      "disabled": {
+        "background-color": {
+          "value": "$semantic.color.interacitve.disabled",
+          "type": "color"
+        },
+        "icon-color": {
+          "value": "$semantic.color.icon.disabled",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "$semantic.color.border.neutral.default",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "background-color": {
+          "value": "$semantic.color.interacitve.hover",
+          "type": "color"
+        },
+        "icon-color": {
+          "value": "$semantic.color.icon.on-solid",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "$semantic.color.border.active",
+          "type": "color"
+        }
+      },
+      "pressed": {
+        "background-color": {
+          "value": "$semantic.color.interacitve.pressed",
+          "type": "color"
+        },
+        "icon-color": {
+          "value": "$semantic.color.icon.on-solid",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "$semantic.color.border.active",
+          "type": "color"
+        }
+      }
+    },
+    "radio": {
+      "border-radius": {
+        "value": "$border-radius.16",
+        "type": "borderRadius"
       }
     }
   }
