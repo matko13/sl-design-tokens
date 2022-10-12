@@ -1,0 +1,47 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 12 Oct 2022 10:40:36 GMT
+ */
+
+:root {
+  --badge-font-font-weight: $fontWeight.Bold;
+  --badge-font-weight: $fontWeight.Bold;
+  --badge-secondary-neutral-hover-background-color: $semantic.color.status.neutral.weaker;
+  --badge-secondary-neutral-default-background-color: $semantic.color.status.neutral.weakest;
+  --badge-secondary-critical-hover-background-color: $semantic.color.status.critical.weaker;
+  --badge-secondary-critical-default-background-color: $semantic.color.status.critical.weakest;
+  --badge-secondary-warning-hover-background-color: $semantic.color.status.warning.weaker;
+  --badge-secondary-warning-default-background-color: $semantic.color.status.warning.weakest;
+  --badge-secondary-info-hover-background-color: $semantic.color.status.info.weaker;
+  --badge-secondary-info-default-background-color: $semantic.color.status.info.weakest;
+  --badge-secondary-success-hover-background-color: $semantic.color.status.success.weaker;
+  --badge-secondary-success-default-background-color: $semantic.color.status.success.weakest;
+  --badge-primary-neutral-hover-background-color: $semantic.color.status.neutral.weak;
+  --badge-primary-neutral-default-background-color: $semantic.color.status.neutral.default;
+  --badge-primary-danger-hover-background-color: $semantic.color.status.danger.weak;
+  --badge-primary-danger-default-background-color: $semantic.color.status.danger.default;
+  --badge-primary-warning-hover-background-color: $semantic.color.status.warning.weak;
+  --badge-primary-warning-default-background-color: $semantic.color.status.warning.default;
+  --badge-primary-info-hover-background-color: $semantic.color.status.info.weak;
+  --badge-primary-info-default-background-color: $semantic.color.status.info.default;
+  --badge-primary-success-hover-background-color: $semantic.color.status.success.weak;
+  --badge-primary-success-default-background-color: $semantic.color.status.success.default;
+  --badge-letter-spacing: 0;
+  --badge-text-decoration: var(--text-decoration-none);
+  --badge-font-text-case: var(--text-case-none);
+  --badge-font-text-decoration: var(--text-decoration-none);
+  --badge-font-letter-spacing: 0;
+  --badge-font-font-size: 13;
+  --badge-font-line-height: var(--line-height-100);
+  --badge-font-font-family: var(--nunito-sans);
+  --badge-text-case: var(--text-case-none);
+  --badge-line-height: var(--line-height-100);
+  --badge-font-size: 13;
+  --badge-font-family: var(--nunito-sans);
+  --badge-rectangle-shaped-border-radius: 6;
+  --badge-pill-shaped-border-radius: 16;
+  --badge-secondary-icon-color: var(--semantic-color-icon-on-solid-inversed);
+  --badge-secondary-text-color: var(--semantic-color-text-on-solid-inversed);
+  --badge-primary-icon-color: var(--semantic-color-icon-on-solid);
+  --badge-primary-text-color: var(--semantic-color-text-on-solid);
+}

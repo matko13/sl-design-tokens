@@ -1,0 +1,35 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 12 Oct 2022 10:40:36 GMT
+ */
+
+:root {
+  --delta-count-added-icon-color: $semantic.color.icon.success;
+  --delta-count-added-text-color: $semantic.color.text.success;
+  --delta-count-unchanged-icon-color: $semantic.color.icon.weak;
+  --delta-count-unchanged-text-color: $semantic.color.text.weak;
+  --delta-count-font-16: };
+  --delta-count-font-15: 6;
+  --delta-count-font-14: h;
+  --delta-count-font-13: .;
+  --delta-count-font-12: n;
+  --delta-count-font-11: .;
+  --delta-count-font-10: y;
+  --delta-count-font-9: h;
+  --delta-count-font-8: p;
+  --delta-count-font-7: a;
+  --delta-count-font-6: r;
+  --delta-count-font-5: g;
+  --delta-count-font-4: o;
+  --delta-count-font-3: p;
+  --delta-count-font-2: y;
+  --delta-count-font-1: t;
+  --delta-count-font-0: {;
+  --delta-count-changed-icon-color: $semantic.color.icon.warning;
+  --delta-count-changed-text-color: $semantic.color.text.warning;
+  --delta-count-removed-icon-color: $semantic.color.icon.danger;
+  --delta-count-removed-text-color: $semantic.color.text.danger;
+  --delta-count-border-width: $semantic.border-width.default;
+  --delta-count-border-color: $semantic.color.border.neutral.default;
+  --delta-count-background-color: $semantic.color.surface.default;
+}

@@ -1,0 +1,77 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 12 Oct 2022 10:40:35 GMT
+ */
+
+:root {
+  --colors-green-900: #073927;
+  --colors-green-800: #094C34;
+  --colors-green-700: #0E714D;
+  --colors-green-600: #129767;
+  --colors-green-500: #17BD81;
+  --colors-green-400: #45CA9A;
+  --colors-green-300: #73D7B3;
+  --colors-green-200: #A1E5CC;
+  --colors-green-100: #B8EBD9;
+  --colors-green-50: #CFF2E5;
+  --colors-red-900: #710808;
+  --colors-red-800: #8C0C0C;
+  --colors-red-700: #A11010;
+  --colors-red-600: #BD1111;
+  --colors-red-500: #CC1A1A;
+  --colors-red-400: #F62727;
+  --colors-red-300: #ff7878;
+  --colors-red-200: #FA8282;
+  --colors-red-100: #FFB4B4;
+  --colors-red-50: #FFD8D8;
+  --colors-yellow-900: #795104;
+  --colors-yellow-800: #AD7509;
+  --colors-yellow-700: #CE8C0A;
+  --colors-yellow-600: #DD9508;
+  --colors-yellow-500: #F2A40B;
+  --colors-yellow-400: #FCB327;
+  --colors-yellow-300: #fac968;
+  --colors-yellow-200: #FFD480;
+  --colors-yellow-100: #FFE0A3;
+  --colors-yellow-50: #FFEFD0;
+  --colors-blue-900: #074177;
+  --colors-blue-800: #0D5EA9;
+  --colors-blue-700: #0E6ABF;
+  --colors-blue-600: #0B75D7;
+  --colors-blue-500: #0B75F2;
+  --colors-blue-400: #2E89F3;
+  --colors-blue-300: #65abfb;
+  --colors-blue-200: #7AB8FF;
+  --colors-blue-100: #bedaff;
+  --colors-blue-50: #E7F2FF;
+  --colors-turquoise-900: #06705C;
+  --colors-turquoise-800: #0FA88C;
+  --colors-turquoise-700: #14bc9d;
+  --colors-turquoise-600: #13F4CB;
+  --colors-turquoise-500: #33FFD9;
+  --colors-turquoise-400: #68FFE3;
+  --colors-turquoise-300: #94FFEB;
+  --colors-turquoise-200: #B9FFF2;
+  --colors-turquoise-100: #DAFFF8;
+  --colors-turquoise-50: #EEFFFC;
+  --colors-gray-900: #131417;
+  --colors-gray-800: #2B2D2F;
+  --colors-gray-700: #3F4044;
+  --colors-gray-600: #70727D;
+  --colors-gray-500: #8C8E9A;
+  --colors-gray-400: #D1D2D9;
+  --colors-gray-300: #E8E9ED;
+  --colors-gray-200: #F0F1F5;
+  --colors-gray-100: #F9FAFC;
+  --colors-gray-50: #ffffff;
+  --colors-purple-900: #1D0655;
+  --colors-purple-800: #2F0C84;
+  --colors-purple-700: #4312B7;
+  --colors-purple-600: #5D25E3;
+  --colors-purple-500: #7C47FC;
+  --colors-purple-400: #9A70FF;
+  --colors-purple-300: #B597FF;
+  --colors-purple-200: #D1BEFF;
+  --colors-purple-100: #E5DBFF;
+  --colors-purple-50: #F5F1FF;
+}
