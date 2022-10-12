@@ -1,4 +1,20 @@
 {
+  "toggles": {
+    "focus": {
+      "border-width": {
+        "value": "$border-width.2",
+        "type": "borderWidth",
+        "failedToResolve": true
+      }
+    },
+    "default": {
+      "border-width": {
+        "value": "$border-width.1",
+        "type": "borderWidth",
+        "failedToResolve": true
+      }
+    }
+  },
   "delta-count": {
     "background-color": {
       "value": "$semantic.color.surface.default",

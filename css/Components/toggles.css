@@ -1,0 +1,9 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 12 Oct 2022 15:17:47 GMT
+ */
+
+:root {
+  --toggles-default-border-width: $border-width.1;
+  --toggles-focus-border-width: $border-width.2;
+}

@@ -448,8 +448,20 @@
             "failedToResolve": true
           }
         },
-        "focused": {
+        "active": {
           "value": "{colors.blue.500}",
+          "type": "color",
+          "description": "Color used for borders in active state.",
+          "failedToResolve": true
+        },
+        "focus": {
+          "value": "{colors.blue.50}",
+          "type": "color",
+          "description": "Color used for focus state components.",
+          "failedToResolve": true
+        },
+        "focused": {
+          "value": "{colors.blue.400}",
           "type": "color",
           "description": "Color used for borders in focus in inputs.",
           "failedToResolve": true

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 12 Oct 2022 10:44:12 GMT
+ * Generated on Wed, 12 Oct 2022 15:17:47 GMT
  */
 
 :root {
@@ -32,7 +32,9 @@
   --semantic-color-status-success-weak: var(--colors-green-400);
   --semantic-color-status-success-default: var(--colors-green-500);
   --semantic-color-status-success-strong: var(--colors-green-600);
-  --semantic-color-border-focused: var(--colors-blue-500);
+  --semantic-color-border-focused: var(--colors-blue-400);
+  --semantic-color-border-focus: var(--colors-blue-50);
+  --semantic-color-border-active: var(--colors-blue-500);
   --semantic-color-border-danger-default: var(--colors-red-300);
   --semantic-color-border-warning-default: var(--colors-yellow-300);
   --semantic-color-border-success-default: var(--colors-green-300);
