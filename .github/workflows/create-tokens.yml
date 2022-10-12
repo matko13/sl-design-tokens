@@ -19,7 +19,7 @@ jobs:
       - run: npx token-transformer data/Core tokens/core.json --expandTypography=true
       - run: npx token-transformer data/Semantic tokens/semantic.json --expandTypography=true
       # Convert tokens according to Style Dictionary config
-      - run: npx build
+      - run: npm build
       # Add files that were created during a run, e.g. created files from style dictionary or token-transformer.
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
