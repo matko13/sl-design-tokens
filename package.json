@@ -9,5 +9,8 @@
     "style-dictionary": "^3.7.1",
     "tinycolor2": "^1.4.2",
     "token-transformer": "^0.0.27"
+  },
+  "scripts": {
+    "build": "npx style-dictionary build --config config.json"
   }
 }
