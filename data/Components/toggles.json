@@ -75,6 +75,10 @@
             "value": "$border-radius.8",
             "type": "borderRadius"
           }
+        },
+        "padding": {
+          "value": "$spacing.2",
+          "type": "spacing"
         }
       },
       "small": {
