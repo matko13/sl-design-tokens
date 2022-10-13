@@ -90,6 +90,11 @@
             "type": "borderRadius",
             "failedToResolve": true
           }
+        },
+        "padding": {
+          "value": "$spacing.2",
+          "type": "spacing",
+          "failedToResolve": true
         }
       },
       "small": {
